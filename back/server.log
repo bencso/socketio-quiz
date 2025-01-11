@@ -1,0 +1,284 @@
+2025-01-11 11:17:41 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:17:41 [WebsocketServer - error]: Adatbázis hiba: Error: getaddrinfo ENOTFOUND 127.0.0.1:3306
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    --------------------
+    at Protocol._enqueue (E:\ws-quiz\back\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\ws-quiz\back\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (E:\ws-quiz\back\node_modules\mysql\lib\Connection.js:116:18)
+    at Object.<anonymous> (E:\ws-quiz\back\server.js:55:12)
+    at Module._compile (node:internal/modules/cjs/loader:1740:14)
+    at Object..js (node:internal/modules/cjs/loader:1905:10)
+    at Module.load (node:internal/modules/cjs/loader:1474:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:234:24)
+2025-01-11 11:18:03 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:18:03 [WebsocketServer - error]: Adatbázis hiba: Error: getaddrinfo ENOTFOUND localhost:3306
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    --------------------
+    at Protocol._enqueue (E:\ws-quiz\back\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\ws-quiz\back\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (E:\ws-quiz\back\node_modules\mysql\lib\Connection.js:116:18)
+    at Object.<anonymous> (E:\ws-quiz\back\server.js:55:12)
+    at Module._compile (node:internal/modules/cjs/loader:1740:14)
+    at Object..js (node:internal/modules/cjs/loader:1905:10)
+    at Module.load (node:internal/modules/cjs/loader:1474:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:234:24)
+2025-01-11 11:18:15 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:18:15 [WebsocketServer - error]: Adatbázis hiba: Error: getaddrinfo ENOTFOUND http://localhost:3306
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    --------------------
+    at Protocol._enqueue (E:\ws-quiz\back\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\ws-quiz\back\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (E:\ws-quiz\back\node_modules\mysql\lib\Connection.js:116:18)
+    at Object.<anonymous> (E:\ws-quiz\back\server.js:55:12)
+    at Module._compile (node:internal/modules/cjs/loader:1740:14)
+    at Object..js (node:internal/modules/cjs/loader:1905:10)
+    at Module.load (node:internal/modules/cjs/loader:1474:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:234:24)
+2025-01-11 11:18:38 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:18:38 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 215
+2025-01-11 11:19:31 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:19:31 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 216
+2025-01-11 11:22:55 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:22:55 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 217
+2025-01-11 11:31:29 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:31:29 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 218
+2025-01-11 11:32:45 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:32:45 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 219
+2025-01-11 11:33:25 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:33:25 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 220
+2025-01-11 11:38:02 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:38:02 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 223
+2025-01-11 11:40:50 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:40:50 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 224
+2025-01-11 11:40:52 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:40:52 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 225
+2025-01-11 11:40:58 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:40:58 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 226
+2025-01-11 11:41:01 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:41:01 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 227
+2025-01-11 11:41:19 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:41:19 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 228
+2025-01-11 11:41:38 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:41:38 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 229
+2025-01-11 11:41:59 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:41:59 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 230
+2025-01-11 11:42:14 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:42:14 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 231
+2025-01-11 11:42:31 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:42:31 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 232
+2025-01-11 11:42:37 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:42:37 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 233
+2025-01-11 11:42:55 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:42:55 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 234
+2025-01-11 11:42:58 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:42:58 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 235
+2025-01-11 11:43:01 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:43:01 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 236
+2025-01-11 11:43:13 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:43:13 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 237
+2025-01-11 11:43:14 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:43:14 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 238
+2025-01-11 11:43:23 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:43:23 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 239
+2025-01-11 11:43:31 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:43:31 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 240
+2025-01-11 11:43:42 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:43:42 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 241
+2025-01-11 11:43:49 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:43:49 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 242
+2025-01-11 11:44:03 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:44:03 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 243
+2025-01-11 11:44:12 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:44:12 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 244
+2025-01-11 11:44:15 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:44:16 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 245
+2025-01-11 11:47:28 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:47:28 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 246
+2025-01-11 11:47:38 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:47:38 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 247
+2025-01-11 11:47:50 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:47:50 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 248
+2025-01-11 11:47:56 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:47:56 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 249
+2025-01-11 11:48:53 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:48:53 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 250
+2025-01-11 11:48:57 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:48:57 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 251
+2025-01-11 11:49:06 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:49:06 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 252
+2025-01-11 11:49:14 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:49:14 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 253
+2025-01-11 11:49:19 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:49:19 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 254
+2025-01-11 11:49:23 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:49:23 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 255
+2025-01-11 11:49:27 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:49:27 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 256
+2025-01-11 11:50:01 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:50:01 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 257
+2025-01-11 11:50:36 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:50:36 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 258
+2025-01-11 11:50:37 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:50:37 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 259
+2025-01-11 11:50:43 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:50:43 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 260
+2025-01-11 11:51:21 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:51:21 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 261
+2025-01-11 11:51:28 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:51:28 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 262
+2025-01-11 11:51:37 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:51:37 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 263
+2025-01-11 11:51:40 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:51:40 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 264
+2025-01-11 11:52:27 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:52:27 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 265
+2025-01-11 11:52:37 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:52:37 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 266
+2025-01-11 11:52:45 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:52:45 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 267
+2025-01-11 11:52:46 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:52:46 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 268
+2025-01-11 11:52:50 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:52:50 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 269
+2025-01-11 11:52:51 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:52:51 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 270
+2025-01-11 11:52:58 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:52:58 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 271
+2025-01-11 11:52:59 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:52:59 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 272
+2025-01-11 11:53:01 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:53:01 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 273
+2025-01-11 11:53:54 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:53:54 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 274
+2025-01-11 11:54:03 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:54:03 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 275
+2025-01-11 11:54:11 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:54:11 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 276
+2025-01-11 11:54:30 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:54:30 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 277
+2025-01-11 11:58:53 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:58:53 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 280
+2025-01-11 11:59:08 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:59:08 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 281
+2025-01-11 11:59:14 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:59:14 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 282
+2025-01-11 11:59:52 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 11:59:52 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 283
+2025-01-11 12:00:15 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:00:15 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 284
+2025-01-11 12:00:28 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:00:28 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 285
+2025-01-11 12:00:40 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:00:40 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 286
+2025-01-11 12:00:45 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:00:45 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 287
+2025-01-11 12:00:50 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:00:50 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 288
+2025-01-11 12:00:55 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:00:55 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 289
+2025-01-11 12:00:59 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:00:59 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 290
+2025-01-11 12:01:07 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:01:07 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 291
+2025-01-11 12:01:16 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:01:16 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 292
+2025-01-11 12:01:19 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:01:19 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 293
+2025-01-11 12:01:23 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:01:23 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 294
+2025-01-11 12:01:26 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:01:26 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 295
+2025-01-11 12:01:30 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:01:30 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 296
+2025-01-11 12:01:37 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:01:37 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 297
+2025-01-11 12:01:40 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:01:40 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 298
+2025-01-11 12:01:42 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:01:42 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 299
+2025-01-11 12:01:43 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:01:43 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 300
+2025-01-11 12:03:00 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:03:00 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 301
+2025-01-11 12:03:05 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:03:05 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 302
+2025-01-11 12:03:17 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:03:17 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 303
+2025-01-11 12:04:02 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:04:02 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 304
+2025-01-11 12:04:08 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:04:08 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 305
+2025-01-11 12:04:23 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:04:23 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 306
+2025-01-11 12:04:28 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:04:28 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 307
+2025-01-11 12:04:32 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:04:32 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 308
+2025-01-11 12:04:37 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:04:37 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 309
+2025-01-11 12:04:46 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:04:46 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 310
+2025-01-11 12:04:47 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:04:47 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 311
+2025-01-11 12:04:56 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:04:56 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 312
+2025-01-11 12:05:02 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:05:02 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 313
+2025-01-11 12:05:11 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:05:11 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 314
+2025-01-11 12:05:15 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:05:15 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 315
+2025-01-11 12:05:25 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:05:25 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 316
+2025-01-11 12:05:27 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:05:27 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 317
+2025-01-11 12:05:34 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:05:34 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 318
+2025-01-11 12:05:37 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:05:37 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 319
+2025-01-11 12:05:38 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:05:38 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 320
+2025-01-11 12:07:14 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:07:14 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 321
+2025-01-11 12:07:15 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:07:15 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 322
+2025-01-11 12:07:27 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:07:27 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 323
+2025-01-11 12:07:43 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:07:43 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 324
+2025-01-11 12:07:46 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:07:46 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 325
+2025-01-11 12:07:49 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:07:49 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 326
+2025-01-11 12:07:52 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:07:52 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 327
+2025-01-11 12:07:55 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:07:55 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 328
+2025-01-11 12:07:58 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:07:58 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 329
+2025-01-11 12:08:09 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:08:09 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 332
+2025-01-11 12:08:09 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:08:09 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 333
+2025-01-11 12:08:24 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:08:24 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 334
+2025-01-11 12:08:48 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:08:48 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 335
+2025-01-11 12:08:55 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:08:55 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 336
+2025-01-11 12:08:58 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:08:58 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 337
+2025-01-11 12:09:21 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:09:21 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 338
+2025-01-11 12:09:22 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:09:22 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 339
+2025-01-11 12:09:25 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:09:25 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 340
+2025-01-11 12:09:28 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-11 12:09:28 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 341
