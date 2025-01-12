@@ -2,52 +2,9 @@
 const express = require("express");
 const http = require("http");
 const { Server } = require("socket.io");
-const winston = require("winston");
 const { v4 } = require("uuid");
-const mysql = require('mysql');
-
-// Adatbázis beállítás
-var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'project',
-    multipleStatements: true
-});
-
-// Logoló beállítás
-//? A logolásra winstont használunk, hogy átláthatóbb legyen az egész.
-const logger = winston.createLogger({
-    level: "info",
-    format: winston.format.combine(
-        winston.format.timestamp({
-            format: "YYYY-MM-DD HH:mm:ss",
-        }),
-        winston.format.errors({ stack: true }),
-        winston.format.splat(),
-        winston.format.label({ label: "WebsocketServer" }),
-        winston.format.json()
-    ),
-    transports: [
-        new winston.transports.Console({
-            format: winston.format.combine(
-                winston.format.colorize({
-                    all: true,
-                }),
-                winston.format.printf(
-                    (log) => `${log.timestamp} [\x1b[36m${log.label}\x1b[0m - ${log.level}]: ${log.message}`
-                ),
-            ),
-        }),
-        new winston.transports.File({
-            filename: "server.log", format: winston.format.combine(
-                winston.format.printf(
-                    (log) => `${log.timestamp} [${log.label} - ${log.level}]: ${log.message}`
-                ),
-            ),
-        }),
-    ],
-});
+const connection = require('./src/config/db');
+const logger = require('./src/config/logger');
 
 connection.connect(function (err) {
     if (err) {
@@ -59,6 +16,7 @@ connection.connect(function (err) {
 
 // Szerver beállítás
 const PORT = 3001; //TODO: Késöbb az .env-ből kell majd kiolvasni
+const API_URL = "http://localhost:3001/api";
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
@@ -83,7 +41,7 @@ io.on("connection", (socket) => {
         és egy szobát deklarál, amelyet letárol szerver oldalon. Ez a kódot pedig a kliensnek átküldi
     */
     socket.on("createRoom", (quizId) => {
-        fetch("http://localhost:3001/api/create/room/" + quizId, {
+        fetch(`${API_URL}/c/room/${quizId}`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -94,8 +52,18 @@ io.on("connection", (socket) => {
         })
             .then((res) => res.json())
             .then((data) => {
-                socket.join(data.code);
-                socket.emit("roomCreated", { code: data.code });
+                socket.join(data.room_id);
+                socket.emit("createdRoom", { code: data.code, room_id: data.room_id, players: data.players });
+            });
+    });
+
+    socket.on("joinRoom", (code) => {
+        logger.info("Szoba csatlakozás: " + code);
+        fetch(`${API_URL}/room/${code}`)
+            .then((res) => res.json())
+            .then((data) => {
+                socket.join(data.room_id);
+                socket.emit("joinedRoom", { code: data.code, room_id: data.room_id, players: data.players });
             });
     });
 

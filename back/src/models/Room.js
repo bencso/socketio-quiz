@@ -1,10 +1,10 @@
 class Room {
-    constructor(id, owner, code, quizId) {
+    constructor(id, owner, code) {
         this.id = id;
         this.owner = owner;
         this.code = code;
-        this.quizId = quizId;
         this.players = [];
+        this.questions = [];
         this.currentQuestionIndex = 0;
     }
 
@@ -20,6 +20,14 @@ class Room {
         return this.players;
     }
 
+    addQuestion(question) {
+        this.questions.push(question);
+    }
+
+    getQuestions(){
+        return this.questions;
+    }
+
     getOwner() {
         return this.owner;
     }
@@ -30,6 +38,10 @@ class Room {
 
     getQuizId() {
         return this.quizId;
+    }
+
+    getId() {
+        return this.id;
     }
 
     getQuestionIndex() {

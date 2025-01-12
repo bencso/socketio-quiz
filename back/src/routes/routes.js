@@ -1,7 +1,7 @@
 // Importálások
 const express = require("express");
 const router = express.Router();
-const { createRoom, getRooms, getRoom } = require("../controllers/roomController");
+const { createRoom, getRooms, getRoom} = require("../controllers/roomController");
 
 router.route("/").get((_, res) => {
     res.send(
