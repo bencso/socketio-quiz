@@ -1,5 +1,7 @@
 export default function Game() {
-    <div>
-        <h1>Game</h1>
-    </div>
+    return (
+        <div>
+            <h1>Game</h1>
+        </div>
+    );
 }

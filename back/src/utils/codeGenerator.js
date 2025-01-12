@@ -1,3 +1,4 @@
+//? JOBB generátor?
 function genereateCode() {
     let code = "";
     const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";

@@ -16,6 +16,7 @@ router.route("/").get((_, res) => {
 });
 
 // Szoba útvonalak
+//TODO: Szebb routes
 router.route("/rooms").get(getRooms);
 router.route("/j/room/:code").post(joinRoom);
 router.route("/c/room/:quizId").post(createRoom);

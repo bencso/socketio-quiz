@@ -16,7 +16,7 @@ connection.connect(function (err) {
 
 // Szerver beállítás
 const PORT = 3001; //TODO: Késöbb az .env-ből kell majd kiolvasni
-const API_URL = "http://localhost:3001/api";
+const API_URL = "http://localhost:3001/api"; //? Végleges API URL
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {

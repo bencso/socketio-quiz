@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import { useSocket } from "@/app/_utils/SocketProvider";
 import GameLayout from "@/app/_components/gameLayout";
 import Lobby from "@/app/_components/game/lobby";
+import Game from "@/app/_components/game/game";
 
 export default function Page() {
   const { code } = useParams();
