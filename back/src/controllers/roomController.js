@@ -105,9 +105,28 @@ const leaveRoom = (req, res) => {
   }
 };
 
+//----
+const getRoom = (req,res) => {
+  let code = req.params.code;
+  code = code.toUpperCase();
+  const room = rooms.getRoom(code);
+  if (room) {
+    res.status(200).send({
+      room_id: room.getId(),
+      code: room.getCode(),
+      players: room.getPlayers(),
+    });
+  } else {
+    res.status(404).send({
+      message: "Room not found",
+    });
+  } 
+}
+
 module.exports = {
   getRooms,
   joinRoom,
   createRoom,
   leaveRoom,
+  getRoom
 };

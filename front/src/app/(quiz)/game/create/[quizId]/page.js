@@ -3,10 +3,9 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { useSocket } from "@/app/_utils/SocketProvider";
-
-function startGame(code) {
-  socket.emit("startGame", code);
-}
+import GameLayout from "@/app/_components/gameLayout";
+import Lobby from "@/app/_components/game/lobby";
+import Game from "@/app/_components/game/game";
 
 export default function Page() {
   const { quizId } = useParams();
@@ -14,6 +13,7 @@ export default function Page() {
   const [error, setError] = useState(null);
   const [code, setCode] = useState(null);
   const [players, setPlayers] = useState([]);
+  const [sceene, setSceene] = useState("lobby");
 
   useEffect(() => {
     if (!socket) return;
@@ -39,20 +39,28 @@ export default function Page() {
       console.log(data);
     });
 
+    socket.on("gameStarted", () => {
+      console.log("Game started");
+      setSceene("game");
+    });
+
     return () => {
       socket.off("error");
     };
   }, [quizId, socket]);
 
   return (
-    <div>
-      {error && <div>{error}</div>}
-      <h1>{code}</h1>
-      <h2>Players:</h2>
-      <ul id="players">
-        {players && players.map((player) => <li key={player}>{player}</li>)}
-      </ul>
-      <button onClick={() => startGame(code)}>Start Game</button>
-    </div>
+    <GameLayout code={code} players={players} error={error}>
+      {sceene === "lobby" && (
+        <Lobby code={code} players={players} isOwner={true} startGame={() => {
+          socket.emit("startGame", code);
+        }} />
+      )}
+      {
+        sceene === "game" && (
+          <Game />
+        )
+      }
+    </GameLayout>
   );
 }

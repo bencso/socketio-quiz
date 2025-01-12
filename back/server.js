@@ -92,6 +92,21 @@ io.on("connection", (socket) => {
     io.to(data.room_id).emit("playerJoined", data.players);
   });
 
+  socket.on("startGame", (code) => { 
+    logger.info("Játék indítása! Szoba: " + code);
+    fetch(`${API_URL}/room/${code}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        io.to(data.room_id).emit("gameStarted", data);
+      });
+  });
+
+
   socket.on("disconnect", () => {
     fetch(`${API_URL}/l/room`, {
       method: "POST",

@@ -398,3 +398,119 @@
 2025-01-12 13:00:31 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: undefined Játékos: ovk1qEsSMnX5F-DlAAAF
 2025-01-12 13:00:33 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
 2025-01-12 13:00:34 [WebsocketServer - info]: Új kliens! ID: jCkujOu5m6Jt3dc7AAAG
+2025-01-12 21:20:48 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-12 21:20:48 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 33
+2025-01-12 21:20:56 [WebsocketServer - info]: Új kliens! ID: txp1gT27ZqQkOXCvAAAA
+2025-01-12 21:21:03 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:21:03 [WebsocketServer - info]: Új kliens! ID: dAuvMfzqUDcbDLKrAAAB
+2025-01-12 21:21:32 [WebsocketServer - info]: Új kliens! ID: WB3s0MVBEWplXxiBAAAC
+2025-01-12 21:21:32 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: fd7a0a53-5965-4f59-a37e-d03c0dd6d124 Játékos: WB3s0MVBEWplXxiBAAAC
+2025-01-12 21:21:47 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:21:51 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:26:46 [WebsocketServer - info]: Új kliens! ID: UzxDU8CfoQa3oLAxAAAD
+2025-01-12 21:26:51 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:26:51 [WebsocketServer - info]: Új kliens! ID: 4Kasfqvno5gFJivtAAAE
+2025-01-12 21:31:02 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:33:45 [WebsocketServer - info]: Új kliens! ID: HRhpmnLxE6oTWJWTAAAF
+2025-01-12 21:33:45 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:33:47 [WebsocketServer - info]: Új kliens! ID: JhW7bYRba-XjnM1CAAAG
+2025-01-12 21:33:54 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:33:54 [WebsocketServer - info]: Új kliens! ID: edyk3RyvL8qJdHtTAAAH
+2025-01-12 21:34:06 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:34:06 [WebsocketServer - info]: Új kliens! ID: 4cjFPb_RlSFgYVhLAAAI
+2025-01-12 21:34:34 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:34:35 [WebsocketServer - info]: Új kliens! ID: qipm387RYCpiBOg9AAAJ
+2025-01-12 21:35:26 [WebsocketServer - info]: Új kliens! ID: qVRhp4bGskL6cKa9AAAK
+2025-01-12 21:35:26 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: 9a6f4e55-fa6f-4f0a-b55f-8d15d6bb4b88 Játékos: qVRhp4bGskL6cKa9AAAK
+2025-01-12 21:35:27 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:35:27 [WebsocketServer - info]: Új kliens! ID: HtV11QKvnylu_XpbAAAL
+2025-01-12 21:35:27 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: 9a6f4e55-fa6f-4f0a-b55f-8d15d6bb4b88 Játékos: HtV11QKvnylu_XpbAAAL
+2025-01-12 21:36:24 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:36:33 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:36:34 [WebsocketServer - info]: Új kliens! ID: typumPkCtwnW9Im6AAAM
+2025-01-12 21:36:34 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: undefined Játékos: typumPkCtwnW9Im6AAAM
+2025-01-12 21:36:34 [WebsocketServer - info]: Új kliens! ID: yYinfbmZcFA5IW9jAAAN
+2025-01-12 21:39:14 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:39:14 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:39:18 [WebsocketServer - info]: Új kliens! ID: Oxblnh5nYuFdscfzAAAO
+2025-01-12 21:39:18 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: undefined Játékos: Oxblnh5nYuFdscfzAAAO
+2025-01-12 21:39:18 [WebsocketServer - info]: Új kliens! ID: Pt-s9TG551oA7B86AAAP
+2025-01-12 21:39:24 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:39:24 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:39:35 [WebsocketServer - info]: Új kliens! ID: OTDqxlDFCSWycYbqAAAQ
+2025-01-12 21:39:35 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: undefined Játékos: OTDqxlDFCSWycYbqAAAQ
+2025-01-12 21:39:35 [WebsocketServer - info]: Új kliens! ID: BG4EhlBrw3D36ndSAAAR
+2025-01-12 21:41:03 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:41:09 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:41:25 [WebsocketServer - info]: Új kliens! ID: b_PBtsP-JPanzCYgAAAS
+2025-01-12 21:41:25 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: undefined Játékos: b_PBtsP-JPanzCYgAAAS
+2025-01-12 21:41:25 [WebsocketServer - info]: Új kliens! ID: M4wHY8MnnLIfXuWHAAAT
+2025-01-12 21:41:36 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:41:36 [WebsocketServer - info]: Új kliens! ID: bYO5gP9DQXTriYItAAAU
+2025-01-12 21:41:42 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:41:43 [WebsocketServer - info]: Új kliens! ID: ahITDP6F_VXWxkjSAAAV
+2025-01-12 21:41:43 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: 3b3ca950-e1a3-426d-bd90-aae0aa5ce0c1 Játékos: ahITDP6F_VXWxkjSAAAV
+2025-01-12 21:42:03 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:42:03 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:42:06 [WebsocketServer - info]: Új kliens! ID: boL1l_o49xIjmCRJAAAW
+2025-01-12 21:42:22 [WebsocketServer - info]: Új kliens! ID: JFvnn39oEwduzMXTAAAX
+2025-01-12 21:42:22 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: undefined Játékos: JFvnn39oEwduzMXTAAAX
+2025-01-12 21:42:26 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:42:27 [WebsocketServer - info]: Új kliens! ID: KjPPuTiKtlmqu0-qAAAY
+2025-01-12 21:42:29 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:42:29 [WebsocketServer - info]: Új kliens! ID: y0kJ3fDejmD52TcyAAAZ
+2025-01-12 21:42:29 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: b978a919-7f13-4c24-9b02-8c9512487607 Játékos: y0kJ3fDejmD52TcyAAAZ
+2025-01-12 21:42:46 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:42:46 [WebsocketServer - info]: Új kliens! ID: YjooS4SF_ZA0FNyrAAAa
+2025-01-12 21:42:46 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: undefined Játékos: YjooS4SF_ZA0FNyrAAAa
+2025-01-12 21:42:47 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:42:47 [WebsocketServer - info]: Új kliens! ID: 4-Q7-1LtD_LB2WnAAAAb
+2025-01-12 21:42:48 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:42:48 [WebsocketServer - info]: Új kliens! ID: v9WwTNXGsXIXYZqvAAAc
+2025-01-12 21:42:48 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:42:49 [WebsocketServer - info]: Új kliens! ID: cvCbWGmRUyQowgeuAAAd
+2025-01-12 21:42:53 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:42:53 [WebsocketServer - info]: Új kliens! ID: rwLEuMTYv4UlCFo0AAAe
+2025-01-12 21:42:53 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: 7c35fe5a-ef12-42cf-beec-6a87389c3e3a Játékos: rwLEuMTYv4UlCFo0AAAe
+2025-01-12 21:43:27 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:43:28 [WebsocketServer - info]: Új kliens! ID: _5eVoVjFdpGfrsg1AAAf
+2025-01-12 21:43:31 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:43:32 [WebsocketServer - info]: Új kliens! ID: vcBADDUYHDw3LVOCAAAg
+2025-01-12 21:43:32 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: 72fdd92b-1e63-4c6c-adbf-06951b897257 Játékos: vcBADDUYHDw3LVOCAAAg
+2025-01-12 21:44:28 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:44:28 [WebsocketServer - info]: Új kliens! ID: bnSiW1Jr9IukN_soAAAh
+2025-01-12 21:44:29 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:44:29 [WebsocketServer - info]: Új kliens! ID: vVEfw4HuOqbLCKsJAAAi
+2025-01-12 21:44:33 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:44:33 [WebsocketServer - info]: Új kliens! ID: _h5D452am62LqB7ZAAAj
+2025-01-12 21:44:33 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: ae0ebf56-cd6e-4fd3-ba6b-95fbe0b7eddc Játékos: _h5D452am62LqB7ZAAAj
+2025-01-12 21:45:10 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:45:10 [WebsocketServer - info]: Új kliens! ID: n8Cl10ydnIaJVLS4AAAk
+2025-01-12 21:45:33 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-12 21:45:33 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 36
+2025-01-12 21:45:33 [WebsocketServer - info]: Új kliens! ID: 2gGj06dgIfDmhGZ2AAAA
+2025-01-12 21:45:33 [WebsocketServer - info]: Új kliens! ID: QX-Ie7qzN_QSR0DVAAAB
+2025-01-12 21:45:37 [WebsocketServer - info]: Játék indítása! Szoba: IHPLLQ
+2025-01-12 21:45:37 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:45:38 [WebsocketServer - info]: Új kliens! ID: bppDuKUbTVdb1GB0AAAC
+2025-01-12 21:45:38 [WebsocketServer - info]: Játék indítása! Szoba: RYSYCC
+2025-01-12 21:45:40 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:45:40 [WebsocketServer - info]: Új kliens! ID: 220D53CjRsnqzfKkAAAD
+2025-01-12 21:45:45 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:45:45 [WebsocketServer - info]: Új kliens! ID: k0loZNzstVEPgQ1DAAAE
+2025-01-12 21:45:45 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: c2d9af70-e70e-4ded-b821-bdede0c2d8b8 Játékos: k0loZNzstVEPgQ1DAAAE
+2025-01-12 21:45:47 [WebsocketServer - info]: Játék indítása! Szoba: HMPDGF
+2025-01-12 21:45:53 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:45:53 [WebsocketServer - info]: Új kliens! ID: DNmP-4V-mU6y24P-AAAF
+2025-01-12 21:45:53 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: undefined Játékos: DNmP-4V-mU6y24P-AAAF
+2025-01-12 21:45:57 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:45:58 [WebsocketServer - info]: Új kliens! ID: fDgzBZTVcRoyu-bKAAAG
+2025-01-12 21:45:58 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: c2d9af70-e70e-4ded-b821-bdede0c2d8b8 Játékos: fDgzBZTVcRoyu-bKAAAG
+2025-01-12 21:46:00 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:46:01 [WebsocketServer - info]: Új kliens! ID: 67ZuG1bp4X08ZIqJAAAH
+2025-01-12 21:46:04 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:46:05 [WebsocketServer - info]: Új kliens! ID: 0_tePpayYEY2FG-PAAAI
+2025-01-12 21:46:05 [WebsocketServer - info]: Játékos csatlakozott a szobához! Szoba: f135d468-b0fb-43b0-822e-e7a600d55cbd Játékos: 0_tePpayYEY2FG-PAAAI
+2025-01-12 21:46:06 [WebsocketServer - info]: Játék indítása! Szoba: AZ72W8
+2025-01-12 21:46:12 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-12 21:46:12 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined

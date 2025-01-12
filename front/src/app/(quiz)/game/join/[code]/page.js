@@ -3,12 +3,15 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { useSocket } from "@/app/_utils/SocketProvider";
+import GameLayout from "@/app/_components/gameLayout";
+import Lobby from "@/app/_components/game/lobby";
 
 export default function Page() {
   const { code } = useParams();
   const socket = useSocket();
   const [error, setError] = useState(null);
   const [players, setPlayers] = useState([]);
+  const [sceene, setSceene] = useState("lobby");
 
   useEffect(() => {
     if (!socket) return;
@@ -38,19 +41,26 @@ export default function Page() {
       console.log(data);
     });
 
+    socket.on("gameStarted", () => {
+      console.log("Game started");
+      setSceene("game");
+    });
+
     return () => {
       socket.off("error");
     };
   }, [code, socket]);
 
   return (
-    <div>
-      {error && <div>{error}</div>}
-      <h1>{code}</h1>
-      <h2>Players:</h2>
-      <ul>
-        {players && players.map((player) => <li key={player}>{player}</li>)}
-      </ul>
-    </div>
+    <GameLayout code={code} players={players} error={error}>
+      {sceene === "lobby" && (
+        <Lobby code={code} players={players} isOwner={false} />
+      )}
+      {
+        sceene === "game" && (
+          <Game />
+        )
+      }
+    </GameLayout>
   );
 }
