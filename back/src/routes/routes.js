@@ -1,20 +1,24 @@
 // Importálások
 const express = require("express");
 const router = express.Router();
-const { createRoom, getRooms, getRoom} = require("../controllers/roomController");
+const { createRoom, getRooms, joinRoom, leaveRoom} = require("../controllers/roomController");
 
 router.route("/").get((_, res) => {
     res.send(
         `
         <h1>Routes</h1>
         <p>GET /api/rooms - Szobák lekérdezése</p>
-        <p>GET /api/room/:code - Szoba lekérdezése</p>
-        <p>POST /api/create/rooms/:quizId - Szoba létrehozása</p>
+        <p>POST /api/j/room/:code - Szobába csatlakozás</p>
+        <p>POST /api/c/room/:quizId - Szoba létrehozása</p>
+        <p>POST /api/l/room/:code - Szobából kilépés</p>
         `
     );
 });
+
+// Szoba útvonalak
 router.route("/rooms").get(getRooms);
-router.route("/room/:code").get(getRoom);
+router.route("/j/room/:code").post(joinRoom);
 router.route("/c/room/:quizId").post(createRoom);
+router.route("/l/room").post(leaveRoom);
 
 module.exports = router;

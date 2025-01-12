@@ -1,10 +1,10 @@
 //Importálások
 const { v4 } = require("uuid");
-const { Room } = require('../models/Room');
-const { Rooms } = require('../models/Room');
-const { genereateCode } = require('../utils/codeGenerator');
-const connection = require('../config/db');
-const logger = require('../config/logger');
+const { Room } = require("../models/Room");
+const { Rooms } = require("../models/Room");
+const { genereateCode } = require("../utils/codeGenerator");
+const connection = require("../config/db");
+const logger = require("../config/logger");
 
 // Szoba deklarálása
 //? Ez azért lesz, hogy a szobákat le tudjuk tárolni, ezeket a szobákat
@@ -13,67 +13,101 @@ let rooms = new Rooms();
 
 //? GET /api/rooms - itt az összes szobát tudjuk lekérni.
 const getRooms = (_, res) => {
-    res.status(200).send({
-        message: "Rooms found",
-        rooms: rooms.getRooms(),
-    });
-}
+  res.status(200).send({
+    message: "Rooms found",
+    rooms: rooms.getRooms(),
+  });
+};
 
-//? GET /api/room/:code - itt egy szobát lehet lekérni CODE-ja alapján.
-const getRoom = (req, res) => {
-    let code = req.params.code;
-    code = code.toUpperCase();
-    const room = rooms.getRoom(code);
-    if (room) {
-        room.addPlayer(req.body.socketId);
-        res.status(200).send({
-            room_id: room.getId(),
-            code: room.getCode(),
-            players: room.getPlayers(),
-        });
-    } else {
-        res.status(404).send({
-            message: "Room not found",
-        });
-    }
-}
+//? POST /api/join/:code - itt egy szobába lehet csatlakozni, CODE alapján.
+// @params code
+// @body socketId
+const joinRoom = (req, res) => {
+  let code = req.params.code;
+  let socketId = req.body.socketId;
+  code = code.toUpperCase();
+  const room = rooms.getRoom(code);
+  if (room) {
+    room.addPlayer(socketId);
+    res.status(200).send({
+      room_id: room.getId(),
+      code: room.getCode(),
+      players: room.getPlayers(),
+    });
+  } else {
+    res.status(404).send({
+      message: "Room not found",
+    });
+  }
+};
 
 //? POST /api/c/room/:quizId - itt szobát tudunk létrehozni.
 //? A quizId-t paraméterként kapjuk meg, míg a socketId-t a bodyból.
 //TODO: A kérdéseket le kell kérni majd a quizId alapján.
+// @params quizId
+// @body socketId
 const createRoom = (req, res) => {
-    const quizId = req.params.quizId;
-    const socketId = req.body.socketId;
-    const code = genereateCode();
-    var room = new Room(v4(), socketId, code);
-    rooms.addRoom(room);
-    //? MIKET ADJUNK MEG TOVÁBB?
-    let sql = `
+  const quizId = req.params.quizId;
+  const socketId = req.body.socketId;
+  const code = genereateCode();
+  var room = new Room(v4(), socketId, code);
+  rooms.addRoom(room);
+  //? MIKET ADJUNK MEG TOVÁBB?
+  let sql = `
     SELECT questions.question_id
     FROM questions NATURAL JOIN answer NATURAL JOIN quiz 
     WHERE quiz.quiz_id = ? 
     GROUP BY questions.question_id;`;
-    connection.query(sql, [quizId], (err, results) => {
-        if (err) {
-            console.log(err);
-            res.status(500).send({
-                message: "Internal server error",
-            });
-        } else {
-            room.addPlayer(socketId);
-            results.forEach((result) => room.addQuestion(result.question_id));
-            res.status(200).send({
-                room_id: room.getId(),
-                code: room.getCode(),
-                questionsId: room.getQuestions(),
-            });
-        }
-    });
-}
+  connection.query(sql, [quizId], (err, results) => {
+    if (err) {
+      console.log(err);
+      res.status(500).send({
+        message: "Internal server error",
+      });
+    } else {
+      logger.debug(socketId);
+      room.addPlayer(socketId);
+      logger.debug(room);
+      results.forEach((result) => room.addQuestion(result.question_id));
+      res.status(200).send({
+        room_id: room.getId(),
+        code: room.getCode(),
+        questionsId: room.getQuestions(),
+        players: room.getPlayers(),
+      });
+    }
+  });
+};
 
+//? POST /api/l/room/:code - itt lehet kilépni a szobából.
+// @params code
+// @body socketId
+const leaveRoom = (req, res) => {
+  let socketId = req.body.socketId;
+  let room = rooms.getRoomsByPlayer(socketId);
+  if (room) {
+    room.removePlayer(socketId);
+    if (room.getPlayers().length === 0) {
+      rooms.removeRoom(room);
+      res.status(200).send({
+        message: "Room deleted",
+      });
+    } else {
+      res.status(200).send({
+        message: "Player left",
+        players: room.getPlayers(),
+      });
+    }
+  } else {
+    res.status(404).send({
+      message: "Room not found",
+    });
+  }
+};
 
 module.exports = {
-    getRooms,
-    getRoom,
-    createRoom,
+  getRooms,
+  joinRoom,
+  createRoom,
+  leaveRoom,
 };
