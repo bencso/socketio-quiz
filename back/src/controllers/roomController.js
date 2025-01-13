@@ -30,7 +30,7 @@ const joinRoom = (req, res) => {
   if (room) {
     room.addPlayer(socketId);
     res.status(200).send({
-      room_id: room.getId(),
+      roomId: room.getId(),
       code: room.getCode(),
       players: room.getPlayers(),
     });
@@ -68,11 +68,10 @@ const createRoom = (req, res) => {
       logger.debug(socketId);
       room.addPlayer(socketId);
       logger.debug(room);
-      results.forEach((result) => room.addQuestion(result.question_id));
       res.status(200).send({
-        room_id: room.getId(),
+        roomId: room.getId(),
         code: room.getCode(),
-        questionsId: room.getQuestions(),
+        questionsId: room.getQuestion(),
         players: room.getPlayers(),
       });
     }
@@ -80,7 +79,7 @@ const createRoom = (req, res) => {
 };
 
 //? POST /api/l/room/:code - itt lehet kilépni a szobából.
-// @params code
+// @params code 
 // @body socketId
 const leaveRoom = (req, res) => {
   let socketId = req.body.socketId;
@@ -108,13 +107,13 @@ const leaveRoom = (req, res) => {
 //----
 const getRoom = (req,res) => {
   let code = req.params.code;
-  code = code.toUpperCase();
   const room = rooms.getRoom(code);
   if (room) {
     res.status(200).send({
-      room_id: room.getId(),
+      roomId: room.getId(),
       code: room.getCode(),
       players: room.getPlayers(),
+      questionId: room.getQuestion(),
     });
   } else {
     res.status(404).send({
@@ -123,10 +122,27 @@ const getRoom = (req,res) => {
   } 
 }
 
+//----
+const nextQuestion = (req, res) => {
+  let roomId = req.params.roomId;
+  const room = rooms.getRoomById(roomId);
+  if (room) {
+    room.nextQuestion();
+    res.status(200).send({
+      message: "Question set",
+    });
+  } else {
+    res.status(404).send({
+      message: "Room not found",
+    });
+  }
+}
+
 module.exports = {
   getRooms,
   joinRoom,
   createRoom,
   leaveRoom,
-  getRoom
+  getRoom,
+  nextQuestion,
 };

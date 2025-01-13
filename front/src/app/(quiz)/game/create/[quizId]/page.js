@@ -12,8 +12,9 @@ export default function Page() {
   const socket = useSocket();
   const [error, setError] = useState(null);
   const [code, setCode] = useState(null);
-  const [players, setPlayers] = useState([]);
   const [sceene, setSceene] = useState("lobby");
+  const [players, setPlayers] = useState([]);
+  const [question, setQuestion] = useState(null);
 
   useEffect(() => {
     if (!socket) return;
@@ -23,31 +24,35 @@ export default function Page() {
       setError(error);
     });
 
-    socket.on("createdRoom", (room) => {
-      setCode(room.code);
-      setPlayers(room.players);
-      console.log(room);
+    socket.on("createdRoom", (data) => {
+      setCode(data.code);
+      console.log(data.players);
+      setPlayers([...data.players]);
     });
 
     socket.on("playerJoined", (data) => {
-      setPlayers(data.players);
-      console.log(data);
+      setPlayers([...data]);
     });
 
     socket.on("playerLeft", (data) => {
-      setPlayers(data.players);
+      setPlayers([...data]);
       console.log(data);
     });
 
-    socket.on("gameStarted", () => {
-      console.log("Game started");
+    socket.on("gameStarted", (data) => {
       setSceene("game");
+      socket.emit("nextQuestion", data);
+    });
+
+    socket.on("getQuestion", (data) => {
+      console.log(data);
     });
 
     return () => {
       socket.off("error");
     };
   }, [quizId, socket]);
+
 
   return (
     <GameLayout code={code} players={players} error={error}>

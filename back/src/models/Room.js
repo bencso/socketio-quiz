@@ -4,7 +4,6 @@ class Room {
     this.owner = owner;
     this.code = code;
     this.players = [];
-    this.questions = [];
     this.currentQuestionIndex = 0;
   }
 
@@ -20,12 +19,8 @@ class Room {
     return this.players;
   }
 
-  addQuestion(question) {
-    this.questions.push(question);
-  }
-
-  getQuestions() {
-    return this.questions;
+  getQuestion() {
+    return this.currentQuestionIndex;
   }
 
   getOwner() {
@@ -44,11 +39,7 @@ class Room {
     return this.id;
   }
 
-  getQuestionIndex() {
-    return this.currentQuestionIndex;
-  }
-
-  incrementQuestionIndex() {
+  nextQuestion() {
     this.currentQuestionIndex++;
   }
 }
@@ -72,6 +63,10 @@ class Rooms {
 
   getRoom(code) {
     return this.rooms.find((r) => r.code === code);
+  }
+
+  getRoomById(id) {
+    return this.rooms.find((r) => r.id === id);
   }
 
   getRoomsByPlayer(player) {

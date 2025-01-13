@@ -52,10 +52,10 @@ io.on("connection", (socket) => {
     })
       .then((res) => res.json())
       .then((data) => {
-        socket.join(data.room_id);
+        socket.join(data.roomId);
         socket.emit("createdRoom", {
           code: data.code,
-          room_id: data.room_id,
+          roomId: data.roomId,
           players: data.players,
         });
       });
@@ -73,10 +73,10 @@ io.on("connection", (socket) => {
     })
       .then((res) => res.json())
       .then((data) => {
-        socket.join(data.room_id);
+        socket.join(data.roomId);
         socket.emit("joinedRoom", {
           code: data.code,
-          room_id: data.room_id,
+          roomId: data.roomId,
           players: data.players,
         });
       });
@@ -85,27 +85,40 @@ io.on("connection", (socket) => {
   socket.on("playerJoin", (data) => {
     logger.info(
       "Játékos csatlakozott a szobához! Szoba: " +
-        data.room_id +
-        " Játékos: " +
-        data.player_id
+      data.roomId +
+      " Játékos: " +
+      data.player_id
     );
-    io.to(data.room_id).emit("playerJoined", data.players);
+    io.to(data.roomId).emit("playerJoined", data.players);
   });
 
-  socket.on("startGame", (code) => { 
+  socket.on("startGame", (code) => {
     logger.info("Játék indítása! Szoba: " + code);
     fetch(`${API_URL}/room/${code}`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
+      method: "GET",
     })
       .then((res) => res.json())
       .then((data) => {
-        io.to(data.room_id).emit("gameStarted", data);
+        io.to(data.roomId).emit("gameStarted", data);
       });
   });
 
+  socket.on("nextQuestion", (data) => {
+    logger.info("Következő kérdés! Szoba: " + data.roomId);
+    fetch(`${API_URL}/room/${data.code}`, {
+      method: "GET",
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        io.to(data.roomId).emit("getQuestion", data);
+      });
+    fetch(`${API_URL}/room/${data.roomId}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      }
+    });
+  });
 
   socket.on("disconnect", () => {
     fetch(`${API_URL}/l/room`, {
@@ -119,8 +132,8 @@ io.on("connection", (socket) => {
     })
       .then((res) => res.json())
       .then((data) => {
-        io.to(data.room_id).emit("playerLeft", data.players);
-        logger.info("Kliens kilépett a szobából! Szoba: " + data.room_id, {
+        io.to(data.roomId).emit("playerLeft", data.players);
+        logger.info("Kliens kilépett a szobából! Szoba: " + data.roomId, {
           players: data.players,
         });
       });

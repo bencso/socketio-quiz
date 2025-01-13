@@ -11,8 +11,10 @@ export default function Page() {
   const { code } = useParams();
   const socket = useSocket();
   const [error, setError] = useState(null);
-  const [players, setPlayers] = useState([]);
   const [sceene, setSceene] = useState("lobby");
+  const [players, setPlayers] = useState([]);
+  const [question, setQuestion] = useState(null);
+
 
   useEffect(() => {
     if (!socket) return;
@@ -28,22 +30,20 @@ export default function Page() {
         player_id: socket.id,
         players: room.players,
       });
-      setPlayers(room.players);
-      console.log(room);
+
+      setPlayers([...room.players]);
     });
 
     socket.on("playerJoined", (data) => {
-      setPlayers(data.players);
-      console.log(data);
+      setPlayers([...data]);
     });
 
     socket.on("playerLeft", (data) => {
-      setPlayers(data.players);
+      setPlayers([...data]);
       console.log(data);
     });
 
     socket.on("gameStarted", () => {
-      console.log("Game started");
       setSceene("game");
     });
 
