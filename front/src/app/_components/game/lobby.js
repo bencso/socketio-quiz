@@ -9,7 +9,7 @@ export default function Lobby({ code, players, isOwner, startGame }) {
         playersDiv.innerHTML = "";
         players.forEach((player) => {
             const li = document.createElement("li");
-            li.textContent = player;
+            li.textContent = player.id;
             playersDiv.appendChild(li);
         }
         );

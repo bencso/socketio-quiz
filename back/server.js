@@ -101,49 +101,55 @@ io.on("connection", (socket) => {
   });
 
   socket.on("reqQuestion", (data) => {
-    fetch(`${API_URL}/room/${data.code}/question`, {
+    fetch(`${API_URL}/room/${data.roomId}/question`, {
       method: "GET",
     })
       .then((res) => res.json())
       .then((data) => {
-        logger.debug("Kérdés lekérdezése! Szoba: " + data.roomId);
         io.to(data.roomId).emit("getQuestion", data);
       });
   });
 
   socket.on("answer", (data) => {
-    const { code, answer } = data;
-    logger.info("Válasz érkezett! Szoba: " + roomId + " Válasz: " + answer);
-    fetch(`${API_URL}/room/${roomId}/answer`, {
+    fetch(`${API_URL}/room/${data.code}/answer`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        answerId: answer,
+        playerId: data.playerId,
+        answer: data.answer,
       }),
-    }).then((res) => res.json()).then((data) => {
-      logger.info("Válasz küldése! Szoba: " + data.roomId);
-      logger.info("Helyes válasz: " + data.correct);
-    });
-
-  });
-
-  socket.on("nextQuestion", (data) => {
-    logger.info("Következő kérdés! Szoba: " + data.roomId);
-    fetch(`${API_URL}/room/${data.code}`, {
-      method: "GET",
     })
       .then((res) => res.json())
       .then((data) => {
-        io.to(data.roomId).emit("getQuestion", data);
+        logger.info(`${data.playerId} válaszolt (${data.roomId}): ${data.answer}`);
+        if (data.allAnswered) {
+          io.to(data.roomId).emit("allAnswered", data);
+        }
       });
+  });
+
+  socket.on("nextQuestion", (data) => {
     fetch(`${API_URL}/room/${data.roomId}`, {
       method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      }
-    });
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.end) {
+          io.to(data.roomId).emit("gameEnded");
+          //TODO: Eredmények lekérése és továbbítása a kliensnek, és a szoba törlése
+        }
+        else {
+          fetch(`${API_URL}/room/${data.roomId}/question`, {
+            method: "GET",
+          })
+            .then((res) => res.json())
+            .then((data) => {
+              io.to(data.roomId).emit("getQuestion", data);
+            });
+        }
+      })
   });
 
   socket.on("disconnect", () => {

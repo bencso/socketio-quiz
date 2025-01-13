@@ -9,7 +9,7 @@ export default function Game({
 }) {
 
     function selectAnswer(answer, socket, code) {
-        socket.emit("answer", { answer, code });
+        socket.emit("answer", { answer, code , playerId: socket.id });
     }
 
     return (

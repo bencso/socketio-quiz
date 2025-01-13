@@ -23,9 +23,9 @@ router.route("/c/room/:quizId").post(createRoom);
 router.route("/l/room").post(leaveRoom);
 //----
 router.route("/room/:code").get(getRoom);
-router.route("/room/:code/question").get(getQuestion);
+router.route("/room/:roomId/question").get(getQuestion);
 router.route("/room/:roomId").put(nextQuestion);
-router.route("/room/:roomId/answer").post(answer);
+router.route("/room/:code/answer").post(answer);
 
 
 module.exports = router;

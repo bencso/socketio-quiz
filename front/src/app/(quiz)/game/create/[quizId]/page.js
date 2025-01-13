@@ -51,6 +51,20 @@ export default function Page() {
       setAnswers(data.answers);
     });
 
+    socket.on("allAnswered", (data) => {
+      setSceene("change");
+      console.log(data);
+      setTimeout(() => {
+        setSceene("game");
+        socket.emit("nextQuestion", data);
+      }, 1000);
+    });
+
+    socket.on("gameEnded", () => {
+      console.log("gameEnded");
+      setSceene("lobby");
+    });
+
     return () => {
       socket.off("error");
     };
@@ -67,6 +81,11 @@ export default function Page() {
       {
         sceene === "game" && (
           <Game question={question} answers={answers} socket={socket} code={code} />
+        )
+      }
+      {
+        sceene === "change" && (
+          <div>Change</div>
         )
       }
     </GameLayout>

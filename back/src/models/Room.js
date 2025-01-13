@@ -9,7 +9,12 @@ class Room {
   }
 
   addPlayer(player) {
-    this.players.push(player);
+    const _player = {
+      id: player,
+      score: 0,
+      answered: false,
+    }
+    this.players.push(_player);
   }
 
   addQuestion(question_id) {
@@ -18,6 +23,15 @@ class Room {
 
   removePlayer(playerId) {
     this.players = this.players.filter((p) => p !== playerId);
+  }
+
+  answered(playerId) {
+    let player = this.players.find((p) => p.id === playerId);
+    player.answered = true;
+  }
+
+  checkAnswers() {
+    return this.players.every((p) => p.answered);
   }
 
   getPlayers() {
@@ -46,6 +60,9 @@ class Room {
 
   nextQuestion() {
     this.currentQuestionIndex++;
+    if (this.currentQuestionIndex >= this.question.length) 
+      this.currentQuestionIndex = -1;
+    return this.currentQuestionIndex;
   }
 }
 

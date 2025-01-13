@@ -979,3 +979,641 @@
 2025-01-13 13:28:49 [WebsocketServer - info]: 1
 2025-01-13 13:28:49 [WebsocketServer - info]: Válasz küldése! Szoba: undefined
 2025-01-13 13:28:49 [WebsocketServer - info]: Helyes válasz: true
+2025-01-13 16:45:00 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:45:00 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 39
+2025-01-13 16:45:00 [WebsocketServer - info]: Új kliens! ID: PS-OdiafljEqv5LKAAAA
+2025-01-13 16:47:55 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:47:56 [WebsocketServer - info]: Új kliens! ID: kz1urhMeetTx0kpNAAAB
+2025-01-13 16:48:00 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:48:00 [WebsocketServer - info]: Új kliens! ID: J0XiLhHxBpIJTkwDAAAC
+2025-01-13 16:49:04 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:49:04 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 40
+2025-01-13 16:49:05 [WebsocketServer - info]: Új kliens! ID: MatQkCoFCZzFIgwhAAAA
+2025-01-13 16:50:29 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:50:29 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 41
+2025-01-13 16:50:29 [WebsocketServer - info]: Új kliens! ID: v1_j9_MTE_YTDH9YAAAA
+2025-01-13 16:50:30 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:50:30 [WebsocketServer - info]: Új kliens! ID: YtP48MlQxoFUcPlEAAAB
+2025-01-13 16:50:32 [WebsocketServer - info]: 1
+2025-01-13 16:51:01 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:51:01 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 42
+2025-01-13 16:51:01 [WebsocketServer - info]: Új kliens! ID: ZNOAY8IdilulQ2qaAAAA
+2025-01-13 16:51:01 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:51:02 [WebsocketServer - info]: Új kliens! ID: ukwfSgDnjLyZngRWAAAB
+2025-01-13 16:51:25 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:51:25 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 43
+2025-01-13 16:51:25 [WebsocketServer - info]: Új kliens! ID: M2wjYkS_ktxrgiieAAAA
+2025-01-13 16:51:26 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:51:26 [WebsocketServer - info]: Új kliens! ID: YCB575hDl8z3hI7NAAAB
+2025-01-13 16:51:28 [WebsocketServer - info]: Szoba: undefined
+2025-01-13 16:51:35 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:51:35 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 44
+2025-01-13 16:51:35 [WebsocketServer - info]: Új kliens! ID: UzdLrFW6ZcIjLlUSAAAA
+2025-01-13 16:51:36 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:51:36 [WebsocketServer - info]: Új kliens! ID: lglOms8eklTZZgbLAAAB
+2025-01-13 16:51:38 [WebsocketServer - info]: Szoba: undefined
+2025-01-13 16:51:54 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:51:54 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 45
+2025-01-13 16:51:55 [WebsocketServer - info]: Új kliens! ID: YrNDbX6I8CVZUTZTAAAA
+2025-01-13 16:51:55 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:51:55 [WebsocketServer - info]: Új kliens! ID: H75imF7RmIacsVENAAAB
+2025-01-13 16:52:00 [WebsocketServer - info]: Szoba: undefined
+2025-01-13 16:52:10 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:52:10 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 46
+2025-01-13 16:52:10 [WebsocketServer - info]: Új kliens! ID: ryekjAXP_vUuD58sAAAA
+2025-01-13 16:52:12 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:52:12 [WebsocketServer - info]: Új kliens! ID: oe3PO7ts9V2Ky1AfAAAB
+2025-01-13 16:52:13 [WebsocketServer - info]: Szoba: undefined
+2025-01-13 16:52:27 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:52:27 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 47
+2025-01-13 16:52:27 [WebsocketServer - info]: Új kliens! ID: 56qF65Gmbxxk5GEUAAAA
+2025-01-13 16:52:28 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:52:28 [WebsocketServer - info]: Új kliens! ID: 5COyiqNSjRSHhHDGAAAB
+2025-01-13 16:52:29 [WebsocketServer - info]: Szoba: undefined
+2025-01-13 16:52:30 [WebsocketServer - info]: Szoba: undefined
+2025-01-13 16:52:48 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:52:48 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 48
+2025-01-13 16:52:48 [WebsocketServer - info]: Új kliens! ID: zChLBBWyqO6DfbXpAAAA
+2025-01-13 16:52:50 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:52:51 [WebsocketServer - info]: Új kliens! ID: HcL6hgB3Ywy4bQTiAAAB
+2025-01-13 16:53:08 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:53:08 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 49
+2025-01-13 16:53:09 [WebsocketServer - info]: Új kliens! ID: N2CyiiYzhu1hdY5oAAAA
+2025-01-13 16:53:21 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:53:21 [WebsocketServer - info]: Új kliens! ID: CknVUXoNpynvmx8dAAAA
+2025-01-13 16:53:21 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 50
+2025-01-13 16:53:22 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:53:22 [WebsocketServer - info]: Új kliens! ID: 046gC-ICoB7fCe3sAAAB
+2025-01-13 16:53:36 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:53:36 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 51
+2025-01-13 16:53:36 [WebsocketServer - info]: Új kliens! ID: HXPxg9soKIr02hDyAAAA
+2025-01-13 16:53:36 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:53:36 [WebsocketServer - info]: Új kliens! ID: MUSGdbinZbj1ambyAAAB
+2025-01-13 16:54:15 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:54:15 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 52
+2025-01-13 16:54:16 [WebsocketServer - info]: Új kliens! ID: 6K9P9utQtMO96lfGAAAA
+2025-01-13 16:54:24 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:54:24 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 53
+2025-01-13 16:54:24 [WebsocketServer - info]: Új kliens! ID: ukfOhHLJoofMdmCPAAAA
+2025-01-13 16:54:28 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:54:28 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 54
+2025-01-13 16:54:28 [WebsocketServer - info]: Új kliens! ID: ne0ffIP32lu1FVJHAAAA
+2025-01-13 16:56:04 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:56:04 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 55
+2025-01-13 16:56:05 [WebsocketServer - info]: Új kliens! ID: uBP4TusIY24qpLDkAAAA
+2025-01-13 16:56:16 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:56:17 [WebsocketServer - info]: Új kliens! ID: 2OwHMAiXdoD9GdyYAAAB
+2025-01-13 16:57:05 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:57:05 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 56
+2025-01-13 16:57:06 [WebsocketServer - info]: Új kliens! ID: nI9wwBqV0CNVu9o6AAAA
+2025-01-13 16:57:10 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:57:10 [WebsocketServer - info]: Új kliens! ID: pTkdihZgsYQaxzNRAAAB
+2025-01-13 16:57:13 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:57:13 [WebsocketServer - info]: Új kliens! ID: Tu4hZl1FxCiYhLZTAAAC
+2025-01-13 16:57:16 [WebsocketServer - info]: Játékos válaszolt a kérdésre! Szoba: undefined
+2025-01-13 16:57:55 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:57:55 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 57
+2025-01-13 16:57:55 [WebsocketServer - info]: Új kliens! ID: QEM_brsWgy4PyZW7AAAA
+2025-01-13 16:58:00 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:58:00 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 58
+2025-01-13 16:58:01 [WebsocketServer - info]: Új kliens! ID: g6FlYVIvRXasR4k1AAAA
+2025-01-13 16:58:03 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:58:03 [WebsocketServer - info]: Új kliens! ID: z4LJGPc4fqr5HJNeAAAB
+2025-01-13 16:58:58 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:58:58 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 59
+2025-01-13 16:58:59 [WebsocketServer - info]: Új kliens! ID: pytkM_xEJA5K_4p9AAAA
+2025-01-13 16:59:35 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:59:35 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 60
+2025-01-13 16:59:35 [WebsocketServer - info]: Új kliens! ID: k3BNA9YLE7MY0dPNAAAA
+2025-01-13 16:59:45 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 16:59:45 [WebsocketServer - info]: Új kliens! ID: po01PupAtEbhviSAAAAB
+2025-01-13 16:59:48 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 16:59:48 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 61
+2025-01-13 16:59:48 [WebsocketServer - info]: Új kliens! ID: gbEUSC02S8f0eQNBAAAA
+2025-01-13 17:00:13 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:00:13 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 62
+2025-01-13 17:00:14 [WebsocketServer - info]: Új kliens! ID: JxsD50eZhxnye1mDAAAA
+2025-01-13 17:00:14 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:00:15 [WebsocketServer - info]: Új kliens! ID: 0krcHJaA7nJgtX6FAAAB
+2025-01-13 17:01:27 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:01:27 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 63
+2025-01-13 17:01:27 [WebsocketServer - info]: Új kliens! ID: SIpV1O946J-AzVHkAAAA
+2025-01-13 17:01:28 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:01:28 [WebsocketServer - info]: Új kliens! ID: zl9-ENzeB-PMAYlgAAAB
+2025-01-13 17:01:41 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:01:41 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 64
+2025-01-13 17:01:42 [WebsocketServer - info]: Új kliens! ID: 7erp2fMrmsfrAihqAAAA
+2025-01-13 17:01:49 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:01:49 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 65
+2025-01-13 17:01:49 [WebsocketServer - info]: Új kliens! ID: Y0cWM06mw7B1kzkbAAAA
+2025-01-13 17:01:50 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:01:50 [WebsocketServer - info]: Új kliens! ID: 3iFWxoymou2MhJszAAAB
+2025-01-13 17:01:51 [WebsocketServer - info]: Játékos válaszolt a kérdésre! Szoba: undefined
+2025-01-13 17:02:03 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:02:03 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 66
+2025-01-13 17:02:03 [WebsocketServer - info]: Új kliens! ID: bLiBPai9RlSNlQltAAAA
+2025-01-13 17:02:03 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:02:04 [WebsocketServer - info]: Új kliens! ID: UvWW35A369K8sQmGAAAB
+2025-01-13 17:02:05 [WebsocketServer - info]: Játékos válaszolt a kérdésre! Szoba: undefined
+2025-01-13 17:02:47 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:02:47 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 67
+2025-01-13 17:02:47 [WebsocketServer - info]: Új kliens! ID: y4RyJdns7ucUxH9KAAAA
+2025-01-13 17:02:47 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:02:47 [WebsocketServer - info]: Új kliens! ID: UmDDJI3vxU5nPua-AAAB
+2025-01-13 17:02:49 [WebsocketServer - info]: Játékos válaszolt a kérdésre! Szoba: undefined
+2025-01-13 17:03:43 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:03:43 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 68
+2025-01-13 17:03:43 [WebsocketServer - info]: Új kliens! ID: e8KRLPHNkafLUoefAAAA
+2025-01-13 17:03:43 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:03:44 [WebsocketServer - info]: Új kliens! ID: ce_jLvAqBpmlOSqYAAAB
+2025-01-13 17:03:46 [WebsocketServer - info]: Játékos válaszolt a kérdésre! Szoba: undefined
+2025-01-13 17:03:59 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:03:59 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 69
+2025-01-13 17:04:00 [WebsocketServer - info]: Új kliens! ID: HHUXs5a2DMtV7CHmAAAA
+2025-01-13 17:04:01 [WebsocketServer - info]: Játékos válaszolt a kérdésre! Szoba: undefined
+2025-01-13 17:04:59 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:04:59 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 72
+2025-01-13 17:04:59 [WebsocketServer - info]: Új kliens! ID: 4abEueiZOjE2j8QSAAAA
+2025-01-13 17:05:00 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:05:00 [WebsocketServer - info]: Új kliens! ID: pgfGWsRDbd8Ctao4AAAB
+2025-01-13 17:05:14 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:05:14 [WebsocketServer - info]: Új kliens! ID: SgYUTaLxPV3KftJxAAAC
+2025-01-13 17:05:59 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:06:00 [WebsocketServer - info]: Új kliens! ID: shs-fOUTbL_jHIIcAAAD
+2025-01-13 17:07:05 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:07:05 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 73
+2025-01-13 17:07:06 [WebsocketServer - info]: Új kliens! ID: rlvUmugTsKn4kdpeAAAA
+2025-01-13 17:07:25 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:07:26 [WebsocketServer - info]: Új kliens! ID: AIrGTgixsxS2STJuAAAB
+2025-01-13 17:07:28 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:07:28 [WebsocketServer - info]: Új kliens! ID: speO0rA_k-g3ws4sAAAC
+2025-01-13 17:07:30 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:07:30 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 74
+2025-01-13 17:07:30 [WebsocketServer - info]: Új kliens! ID: 9Oj-fvaxZKcYV2I-AAAA
+2025-01-13 17:07:31 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:07:31 [WebsocketServer - info]: Új kliens! ID: w9iWE6t-0FZVJNxdAAAB
+2025-01-13 17:08:13 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:08:13 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 75
+2025-01-13 17:08:13 [WebsocketServer - info]: Új kliens! ID: hMqTcmkejt09DyElAAAA
+2025-01-13 17:08:13 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:08:13 [WebsocketServer - info]: Új kliens! ID: 8MzwRcxvHB3min34AAAB
+2025-01-13 17:08:15 [WebsocketServer - info]: Játékos válaszolt a kérdésre! Szoba: undefined
+2025-01-13 17:08:36 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:08:36 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 76
+2025-01-13 17:08:37 [WebsocketServer - info]: Új kliens! ID: CDerNxVFpO_xeYbHAAAA
+2025-01-13 17:08:37 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:08:37 [WebsocketServer - info]: Új kliens! ID: RhKiNe9VctgmDixyAAAB
+2025-01-13 17:08:39 [WebsocketServer - info]: Játékos válaszolt a kérdésre! Szoba: undefined
+2025-01-13 17:08:51 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:08:51 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 77
+2025-01-13 17:08:51 [WebsocketServer - info]: Új kliens! ID: BfzDD7Hu30Qj86eHAAAA
+2025-01-13 17:08:52 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:08:52 [WebsocketServer - info]: Új kliens! ID: JLGyzcC383NmBSw4AAAB
+2025-01-13 17:08:53 [WebsocketServer - info]: Játékos válaszolt a kérdésre! Szoba: undefined
+2025-01-13 17:10:07 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:10:07 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 78
+2025-01-13 17:10:08 [WebsocketServer - info]: Új kliens! ID: BZWdQwMaE0Jz1jpLAAAA
+2025-01-13 17:10:08 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:10:08 [WebsocketServer - info]: Új kliens! ID: PEDQo63h7t22vXwrAAAB
+2025-01-13 17:10:09 [WebsocketServer - info]: undefined válaszolt a kérdésre! {}
+2025-01-13 17:10:19 [WebsocketServer - info]: undefined válaszolt a kérdésre! {}
+2025-01-13 17:10:36 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:10:36 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 79
+2025-01-13 17:10:36 [WebsocketServer - info]: Új kliens! ID: 2Zvw0lze04oIlfKUAAAA
+2025-01-13 17:10:37 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:10:37 [WebsocketServer - info]: Új kliens! ID: MZL4i6Uwmdu8yspxAAAB
+2025-01-13 17:10:41 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:10:41 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 80
+2025-01-13 17:10:41 [WebsocketServer - info]: Új kliens! ID: W3PpKEBU1sC0Pb4JAAAA
+2025-01-13 17:10:50 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:10:50 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 81
+2025-01-13 17:10:51 [WebsocketServer - info]: Új kliens! ID: 5CT1l5-784NVV1S9AAAA
+2025-01-13 17:10:53 [WebsocketServer - info]: undefined válaszolt a kérdésre! {}
+2025-01-13 17:11:16 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:11:16 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 82
+2025-01-13 17:11:16 [WebsocketServer - info]: Új kliens! ID: VESeoQND9VXysYPDAAAA
+2025-01-13 17:11:17 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:11:17 [WebsocketServer - info]: Új kliens! ID: y-OhcKBUxM0tIBneAAAB
+2025-01-13 17:11:18 [WebsocketServer - info]: undefined válaszolt a kérdésre! {}
+2025-01-13 17:12:05 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:12:05 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 83
+2025-01-13 17:12:05 [WebsocketServer - info]: Új kliens! ID: VkPLQGOxySCHWwJTAAAA
+2025-01-13 17:12:06 [WebsocketServer - info]: Válasz küldése! Szoba: b45e6de3-3237-4200-ae0e-d5b316cec5b9
+2025-01-13 17:12:41 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:12:41 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 84
+2025-01-13 17:12:42 [WebsocketServer - info]: Új kliens! ID: 3_9pss1rfCXiq7KeAAAA
+2025-01-13 17:12:44 [WebsocketServer - info]: 3_9pss1rfCXiq7KeAAAA válaszolt (9aa449cf-9b1f-4cf2-b3c3-d4604531f953): 2
+2025-01-13 17:14:41 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:14:41 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 85
+2025-01-13 17:14:42 [WebsocketServer - info]: Új kliens! ID: aEOs9dkZC2NW2bv0AAAA
+2025-01-13 17:14:43 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:14:43 [WebsocketServer - info]: Új kliens! ID: O18qrY6Gd4Owl8FaAAAB
+2025-01-13 17:14:55 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:14:55 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 86
+2025-01-13 17:14:55 [WebsocketServer - info]: Új kliens! ID: 1MUY77xfRmfGQBYiAAAA
+2025-01-13 17:14:56 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:14:56 [WebsocketServer - info]: Új kliens! ID: 2q5bQ9AVb7NW-VNfAAAB
+2025-01-13 17:15:08 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:15:08 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 87
+2025-01-13 17:15:09 [WebsocketServer - info]: Új kliens! ID: nO3r3RPBYvgDOBKTAAAA
+2025-01-13 17:15:09 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:15:09 [WebsocketServer - info]: Új kliens! ID: 5KCNvOwgW-ssoLMnAAAB
+2025-01-13 17:15:16 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:15:16 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 88
+2025-01-13 17:15:16 [WebsocketServer - info]: Új kliens! ID: Ee5D4eXIdA-6sRgCAAAA
+2025-01-13 17:15:17 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:15:17 [WebsocketServer - info]: Új kliens! ID: iGdTBe-CXk48zWPWAAAB
+2025-01-13 17:15:35 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:15:35 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 89
+2025-01-13 17:15:35 [WebsocketServer - info]: Új kliens! ID: Frj_sm6zgsUDBMzkAAAA
+2025-01-13 17:15:35 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:15:35 [WebsocketServer - info]: Új kliens! ID: uHUIxWw2waEVF2gCAAAB
+2025-01-13 17:15:44 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:15:44 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 90
+2025-01-13 17:15:44 [WebsocketServer - info]: Új kliens! ID: X7nQb3qIgJwBv6fQAAAA
+2025-01-13 17:15:44 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:15:45 [WebsocketServer - info]: Új kliens! ID: KmheU0WSlq53nGXhAAAB
+2025-01-13 17:15:52 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:15:52 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 91
+2025-01-13 17:15:52 [WebsocketServer - info]: Új kliens! ID: 7SEfRw2PIARbYRoaAAAA
+2025-01-13 17:15:52 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:15:53 [WebsocketServer - info]: Új kliens! ID: lMFk0tY5BXVsoFK8AAAB
+2025-01-13 17:15:54 [WebsocketServer - info]: lMFk0tY5BXVsoFK8AAAB válaszolt (cac237cf-f9a7-49d3-83ba-779e4e2f03cd): 2
+2025-01-13 17:16:32 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:16:32 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 92
+2025-01-13 17:16:33 [WebsocketServer - info]: Új kliens! ID: QMWapNlD008TtWA_AAAA
+2025-01-13 17:16:48 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:16:48 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 93
+2025-01-13 17:16:48 [WebsocketServer - info]: Új kliens! ID: PPmJVJ9pYBvMJOtTAAAA
+2025-01-13 17:16:53 [WebsocketServer - info]: PPmJVJ9pYBvMJOtTAAAA válaszolt (57a32b60-cd95-47ba-93b6-680782bcf81b): 2
+2025-01-13 17:16:53 [WebsocketServer - info]: undefined
+2025-01-13 17:17:06 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:17:06 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 94
+2025-01-13 17:17:06 [WebsocketServer - info]: Új kliens! ID: Dmh8kdZneXz_MummAAAA
+2025-01-13 17:17:06 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:17:06 [WebsocketServer - info]: Új kliens! ID: bjmxZmpWCaSbDWeGAAAB
+2025-01-13 17:17:07 [WebsocketServer - info]: bjmxZmpWCaSbDWeGAAAB válaszolt (75916726-3fc4-46db-a56d-5f274a049bc4): 2
+2025-01-13 17:17:07 [WebsocketServer - info]: {"roomId":"75916726-3fc4-46db-a56d-5f274a049bc4","playerId":"bjmxZmpWCaSbDWeGAAAB","answer":2,"allAnswered":true}
+2025-01-13 17:17:16 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:17:16 [WebsocketServer - info]: Új kliens! ID: he5R6GhRGFAN83y6AAAC
+2025-01-13 17:19:04 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:19:04 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 95
+2025-01-13 17:19:04 [WebsocketServer - info]: Új kliens! ID: hienTjmh9rEo0Rj3AAAA
+2025-01-13 17:19:05 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:19:05 [WebsocketServer - info]: Új kliens! ID: bvsTTKUQowHSyYZ9AAAB
+2025-01-13 17:19:21 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:19:21 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 96
+2025-01-13 17:19:22 [WebsocketServer - info]: Új kliens! ID: EDjux07x9jeLo84gAAAA
+2025-01-13 17:19:37 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:19:37 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 97
+2025-01-13 17:19:38 [WebsocketServer - info]: Új kliens! ID: dnGRchTaxqbueaojAAAA
+2025-01-13 17:19:38 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:19:38 [WebsocketServer - info]: Új kliens! ID: 6li58HaQYL17T1xzAAAB
+2025-01-13 17:19:41 [WebsocketServer - info]: 6li58HaQYL17T1xzAAAB válaszolt (057f7865-20dc-4772-afaf-e631348c33bd): 1 |
+          false
+2025-01-13 17:19:45 [WebsocketServer - info]: 6li58HaQYL17T1xzAAAB válaszolt (057f7865-20dc-4772-afaf-e631348c33bd): 2 |
+          false
+2025-01-13 17:20:06 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:20:06 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 98
+2025-01-13 17:20:06 [WebsocketServer - info]: Új kliens! ID: Ur1-MSa6ZFMF9oBGAAAA
+2025-01-13 17:20:06 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:20:07 [WebsocketServer - info]: Új kliens! ID: I1BW4vN698WZd6VeAAAB
+2025-01-13 17:20:08 [WebsocketServer - info]: I1BW4vN698WZd6VeAAAB válaszolt (ce92dd36-2302-4cb6-9d4f-8d83be8b14f4): 2 |
+          false
+2025-01-13 17:20:11 [WebsocketServer - info]: I1BW4vN698WZd6VeAAAB válaszolt (ce92dd36-2302-4cb6-9d4f-8d83be8b14f4): 1 |
+          false
+2025-01-13 17:21:55 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:21:55 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 99
+2025-01-13 17:21:55 [WebsocketServer - info]: Új kliens! ID: ZuLaN9iJfKR1L9-1AAAA
+2025-01-13 17:21:59 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:22:00 [WebsocketServer - info]: Új kliens! ID: B8S8BDsOD1KfdVK2AAAB
+2025-01-13 17:22:02 [WebsocketServer - info]: B8S8BDsOD1KfdVK2AAAB válaszolt (2549ffc7-a2bd-4f0e-87aa-6c418707c9ba): 2 |
+          false
+2025-01-13 17:22:03 [WebsocketServer - info]: B8S8BDsOD1KfdVK2AAAB válaszolt (2549ffc7-a2bd-4f0e-87aa-6c418707c9ba): 1 |
+          false
+2025-01-13 17:22:29 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:22:29 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 100
+2025-01-13 17:22:29 [WebsocketServer - info]: Új kliens! ID: oizLcRGTqTyfovIVAAAA
+2025-01-13 17:22:30 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:22:30 [WebsocketServer - info]: Új kliens! ID: egvVkfzo-CDG059UAAAB
+2025-01-13 17:22:32 [WebsocketServer - info]: egvVkfzo-CDG059UAAAB válaszolt (0b9aec1a-5437-4059-8a24-2d52a9131289): 2 |
+          false
+2025-01-13 17:22:35 [WebsocketServer - info]: egvVkfzo-CDG059UAAAB válaszolt (0b9aec1a-5437-4059-8a24-2d52a9131289): 1 |
+          false
+2025-01-13 17:22:40 [WebsocketServer - info]: egvVkfzo-CDG059UAAAB válaszolt (0b9aec1a-5437-4059-8a24-2d52a9131289): 2 |
+          false
+2025-01-13 17:22:41 [WebsocketServer - info]: egvVkfzo-CDG059UAAAB válaszolt (0b9aec1a-5437-4059-8a24-2d52a9131289): 1 |
+          false
+2025-01-13 17:22:59 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:22:59 [WebsocketServer - info]: Új kliens! ID: NPhyLO7IXxtgTO-3AAAA
+2025-01-13 17:22:59 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 101
+2025-01-13 17:23:00 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:23:00 [WebsocketServer - info]: Új kliens! ID: FAAUgeQHrLrv0nvxAAAB
+2025-01-13 17:23:02 [WebsocketServer - info]: FAAUgeQHrLrv0nvxAAAB válaszolt (018dbc91-c7a6-47f3-90b5-c0286377be3e): 2 |
+          false
+2025-01-13 17:23:03 [WebsocketServer - info]: FAAUgeQHrLrv0nvxAAAB válaszolt (018dbc91-c7a6-47f3-90b5-c0286377be3e): 1 |
+          false
+2025-01-13 17:23:16 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:23:16 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 102
+2025-01-13 17:23:16 [WebsocketServer - info]: Új kliens! ID: edTklUd6V10tH0TOAAAA
+2025-01-13 17:23:17 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:23:17 [WebsocketServer - info]: Új kliens! ID: QdG1NkFWhs9Fu6HFAAAB
+2025-01-13 17:23:19 [WebsocketServer - info]: QdG1NkFWhs9Fu6HFAAAB válaszolt (a24861ce-8c0c-4563-9044-479d320b80f4): 1 |
+          false
+2025-01-13 17:23:19 [WebsocketServer - info]: QdG1NkFWhs9Fu6HFAAAB válaszolt (a24861ce-8c0c-4563-9044-479d320b80f4): 2 |
+          false
+2025-01-13 17:23:37 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:23:37 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 105
+2025-01-13 17:23:37 [WebsocketServer - info]: Új kliens! ID: 5AoljoPC8ZMZLE-UAAAA
+2025-01-13 17:23:37 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:23:38 [WebsocketServer - info]: Új kliens! ID: iAXJGq_LDC-USs8yAAAB
+2025-01-13 17:23:39 [WebsocketServer - info]: iAXJGq_LDC-USs8yAAAB válaszolt (2e0aad03-3934-4862-b444-bdb60e41d33e): 2 |
+          true
+2025-01-13 17:23:40 [WebsocketServer - info]: iAXJGq_LDC-USs8yAAAB válaszolt (2e0aad03-3934-4862-b444-bdb60e41d33e): 1 |
+          false
+2025-01-13 17:27:17 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:27:17 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 106
+2025-01-13 17:27:25 [WebsocketServer - info]: Új kliens! ID: fHwXZFWGAoEpPX9qAAAA
+2025-01-13 17:27:43 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:27:43 [WebsocketServer - info]: Új kliens! ID: 9kRnmpSMAKPBqs6gAAAB
+2025-01-13 17:27:46 [WebsocketServer - info]: 9kRnmpSMAKPBqs6gAAAB válaszolt (b2bd327c-98ef-444c-967a-7a9031d1f934): 2 |
+          true
+2025-01-13 17:28:08 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:28:08 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 107
+2025-01-13 17:28:09 [WebsocketServer - info]: Új kliens! ID: XbTq7zrc8WFs29d4AAAA
+2025-01-13 17:28:11 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:28:11 [WebsocketServer - info]: Új kliens! ID: SuyybOQ-UsgvREPAAAAB
+2025-01-13 17:28:13 [WebsocketServer - info]: SuyybOQ-UsgvREPAAAAB válaszolt (7880738f-96bd-463f-a36c-647daa6a880f): 2 |
+          true
+2025-01-13 17:29:55 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:29:55 [WebsocketServer - info]: Új kliens! ID: vU3JeDcX5UKF3c9XAAAC
+2025-01-13 17:30:20 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:30:20 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 108
+2025-01-13 17:30:20 [WebsocketServer - info]: Új kliens! ID: z3cEm7Lyz-LXCP1ZAAAA
+2025-01-13 17:30:21 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:30:21 [WebsocketServer - info]: Új kliens! ID: ERQqVIcLT0Tb2jJNAAAB
+2025-01-13 17:30:23 [WebsocketServer - info]: ERQqVIcLT0Tb2jJNAAAB válaszolt (198d2619-8ee6-4689-81f1-e5d63c529b4d): 1 |
+          false
+2025-01-13 17:31:29 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:31:29 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 109
+2025-01-13 17:31:29 [WebsocketServer - info]: Új kliens! ID: LagTJ9Kdy1CN5BSxAAAA
+2025-01-13 17:31:41 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:31:41 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 110
+2025-01-13 17:31:43 [WebsocketServer - info]: Új kliens! ID: xxpJZpOr3XQSWyi-AAAA
+2025-01-13 17:31:44 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:31:44 [WebsocketServer - info]: Új kliens! ID: maafxX_lswt5ZflZAAAB
+2025-01-13 17:31:46 [WebsocketServer - info]: maafxX_lswt5ZflZAAAB válaszolt (fa4bab74-6811-4aa3-b7d6-b9ba601ed258): 2 |
+          true
+2025-01-13 17:32:54 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:32:54 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 111
+2025-01-13 17:32:54 [WebsocketServer - info]: Új kliens! ID: xfHzhwaNEG1yN16xAAAA
+2025-01-13 17:32:56 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:32:56 [WebsocketServer - info]: Új kliens! ID: tWQ2Af2oy1s-8jK1AAAB
+2025-01-13 17:32:58 [WebsocketServer - info]: tWQ2Af2oy1s-8jK1AAAB válaszolt (cd60a818-6232-42e0-98aa-8fd868e2e85e): 2 |
+          true
+2025-01-13 17:33:36 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:33:36 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 112
+2025-01-13 17:33:36 [WebsocketServer - info]: Új kliens! ID: rNU3lyivynTWRht6AAAA
+2025-01-13 17:33:37 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:33:37 [WebsocketServer - info]: Új kliens! ID: -QR_Sr-jApCOyawwAAAB
+2025-01-13 17:33:40 [WebsocketServer - info]: -QR_Sr-jApCOyawwAAAB válaszolt (08a61b4c-f18e-4faf-b0ac-af098b4017c3): 2 |
+          true
+2025-01-13 17:35:06 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:35:07 [WebsocketServer - info]: Új kliens! ID: v5WnDZHrE3rTXlTPAAAC
+2025-01-13 17:35:08 [WebsocketServer - info]: v5WnDZHrE3rTXlTPAAAC válaszolt (fff132a4-92c0-4227-9408-accdbad57a6e): 2 |
+          true
+2025-01-13 17:36:13 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:36:13 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 113
+2025-01-13 17:36:13 [WebsocketServer - info]: Új kliens! ID: WQ3h-6oHFJQ5fwAYAAAA
+2025-01-13 17:36:13 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:36:14 [WebsocketServer - info]: Új kliens! ID: -eGJkVNM4qgLJjIVAAAB
+2025-01-13 17:36:15 [WebsocketServer - info]: -eGJkVNM4qgLJjIVAAAB válaszolt (96cb9df9-ebc5-4b18-ab7e-435096f6aa61): 2 |
+          true
+2025-01-13 17:36:18 [WebsocketServer - info]: -eGJkVNM4qgLJjIVAAAB válaszolt (96cb9df9-ebc5-4b18-ab7e-435096f6aa61): 1 |
+          false
+2025-01-13 17:36:26 [WebsocketServer - info]: -eGJkVNM4qgLJjIVAAAB válaszolt (96cb9df9-ebc5-4b18-ab7e-435096f6aa61): 2 |
+          true
+2025-01-13 17:36:32 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:36:32 [WebsocketServer - info]: Új kliens! ID: enRbzgfpdFzvqLs2AAAC
+2025-01-13 17:37:04 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:37:04 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 114
+2025-01-13 17:37:04 [WebsocketServer - info]: Új kliens! ID: _Rdjp2Akq5WHOQwpAAAA
+2025-01-13 17:37:05 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:37:06 [WebsocketServer - info]: Új kliens! ID: JmAS3pNv6Gn_xJaaAAAB
+2025-01-13 17:37:13 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:37:13 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 115
+2025-01-13 17:37:13 [WebsocketServer - info]: Új kliens! ID: GOmtgJYKUsBbtCXPAAAA
+2025-01-13 17:37:13 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:37:14 [WebsocketServer - info]: Új kliens! ID: LSI4cusBiKeEbA10AAAB
+2025-01-13 17:37:25 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:37:25 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 116
+2025-01-13 17:37:26 [WebsocketServer - info]: Új kliens! ID: NRho7XecLNacp0kcAAAA
+2025-01-13 17:37:27 [WebsocketServer - info]: NRho7XecLNacp0kcAAAA válaszolt (feed8082-3f54-4b7c-9268-dacfd8357613): 2 |
+          true
+2025-01-13 17:39:45 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:39:45 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 117
+2025-01-13 17:39:46 [WebsocketServer - info]: Új kliens! ID: N86ocSpLXs9GYkJHAAAA
+2025-01-13 17:39:50 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:39:50 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 118
+2025-01-13 17:39:51 [WebsocketServer - info]: Új kliens! ID: gzt5BiRRDBVYZDAUAAAA
+2025-01-13 17:39:51 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:39:51 [WebsocketServer - info]: Új kliens! ID: OW-WP1GQhN5GEF2DAAAB
+2025-01-13 17:39:53 [WebsocketServer - info]: OW-WP1GQhN5GEF2DAAAB válaszolt (58898529-c1ea-4da3-bb23-2da92657fbc5): 2 |
+          true
+2025-01-13 17:39:55 [WebsocketServer - info]: OW-WP1GQhN5GEF2DAAAB válaszolt (58898529-c1ea-4da3-bb23-2da92657fbc5): 1 |
+          false
+2025-01-13 17:40:07 [WebsocketServer - info]: OW-WP1GQhN5GEF2DAAAB válaszolt (58898529-c1ea-4da3-bb23-2da92657fbc5): 2 |
+          true
+2025-01-13 17:40:26 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:40:26 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 119
+2025-01-13 17:40:26 [WebsocketServer - info]: Új kliens! ID: Gu2OQsfDlSbd-X2PAAAA
+2025-01-13 17:40:26 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:40:27 [WebsocketServer - info]: Új kliens! ID: BHda2O_OwHTIUoMfAAAB
+2025-01-13 17:40:29 [WebsocketServer - info]: BHda2O_OwHTIUoMfAAAB válaszolt (99af41d9-676a-4af8-a77f-b550dc523de6): 2 |
+          true
+2025-01-13 17:40:30 [WebsocketServer - info]: Következő kérdés! Szoba: undefined
+2025-01-13 17:40:37 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:40:37 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 120
+2025-01-13 17:40:38 [WebsocketServer - info]: Új kliens! ID: qMSJM9prClCZoYOpAAAA
+2025-01-13 17:40:39 [WebsocketServer - info]: qMSJM9prClCZoYOpAAAA válaszolt (4f498e43-dcb0-420f-b866-b8972063e37f): 2 |
+          true
+2025-01-13 17:40:40 [WebsocketServer - info]: Következő kérdés! Szoba: [object Object]
+2025-01-13 17:40:48 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:40:48 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 121
+2025-01-13 17:40:49 [WebsocketServer - info]: Új kliens! ID: FCPg7nplvGX6M1EgAAAA
+2025-01-13 17:40:49 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:40:49 [WebsocketServer - info]: Új kliens! ID: ylQpDjfOFmgYwrpOAAAB
+2025-01-13 17:40:50 [WebsocketServer - info]: ylQpDjfOFmgYwrpOAAAB válaszolt (1a4378de-063a-43e7-831f-d0ff24b7f8ae): 2 |
+          true
+2025-01-13 17:40:51 [WebsocketServer - info]: Következő kérdés! Szoba: {"message":"Question set"}
+2025-01-13 17:41:56 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:41:56 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 122
+2025-01-13 17:41:56 [WebsocketServer - info]: Új kliens! ID: g2GP6O5oGuhU1NL4AAAA
+2025-01-13 17:41:59 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:42:00 [WebsocketServer - info]: Új kliens! ID: Qyf04BMMUMeNR0ngAAAB
+2025-01-13 17:42:08 [WebsocketServer - info]: Qyf04BMMUMeNR0ngAAAB válaszolt (68485e22-209a-4df8-b60b-aaeab6042c53): 2 |
+          true
+2025-01-13 17:42:09 [WebsocketServer - info]: Következő kérdés! Szoba: {"roomId":"68485e22-209a-4df8-b60b-aaeab6042c53"}
+2025-01-13 17:42:12 [WebsocketServer - info]: Qyf04BMMUMeNR0ngAAAB válaszolt (68485e22-209a-4df8-b60b-aaeab6042c53): 3 |
+          true
+2025-01-13 17:42:13 [WebsocketServer - info]: Következő kérdés! Szoba: {"roomId":"68485e22-209a-4df8-b60b-aaeab6042c53"}
+2025-01-13 17:42:17 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:42:17 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 123
+2025-01-13 17:42:19 [WebsocketServer - info]: Új kliens! ID: hezsjUP80187odFVAAAA
+2025-01-13 17:44:03 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:44:03 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 124
+2025-01-13 17:44:03 [WebsocketServer - info]: Új kliens! ID: nfW-3IRgTlmwDd_pAAAA
+2025-01-13 17:44:56 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:44:56 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 125
+2025-01-13 17:44:56 [WebsocketServer - info]: Új kliens! ID: cR4Ciw8tbtP1kMKOAAAA
+2025-01-13 17:44:57 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:44:57 [WebsocketServer - info]: Új kliens! ID: nvBjsdyTyT8VcMZvAAAB
+2025-01-13 17:44:59 [WebsocketServer - info]: nvBjsdyTyT8VcMZvAAAB válaszolt (cd026f69-c3a0-406c-81e0-05794a17249b): 2 |
+          true
+2025-01-13 17:45:00 [WebsocketServer - info]: nvBjsdyTyT8VcMZvAAAB válaszolt (cd026f69-c3a0-406c-81e0-05794a17249b): 3 |
+          true
+2025-01-13 17:45:46 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:45:46 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 126
+2025-01-13 17:45:46 [WebsocketServer - info]: Új kliens! ID: qTh2unyTyTOFTPC8AAAA
+2025-01-13 17:45:47 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:45:48 [WebsocketServer - info]: Új kliens! ID: t8mmJVXS9gSEwNosAAAB
+2025-01-13 17:45:49 [WebsocketServer - info]: t8mmJVXS9gSEwNosAAAB válaszolt (b146d950-4863-4c28-8409-e70f8b53a802): 2 |
+          true
+2025-01-13 17:45:52 [WebsocketServer - info]: t8mmJVXS9gSEwNosAAAB válaszolt (b146d950-4863-4c28-8409-e70f8b53a802): 4 |
+          false
+2025-01-13 17:46:04 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:46:04 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 127
+2025-01-13 17:46:04 [WebsocketServer - info]: Új kliens! ID: gsTN-hpqN0_1oA2WAAAA
+2025-01-13 17:46:04 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:46:05 [WebsocketServer - info]: Új kliens! ID: Eu0BZKazwqH4VtNVAAAB
+2025-01-13 17:46:06 [WebsocketServer - info]: Eu0BZKazwqH4VtNVAAAB válaszolt (69ba3b95-b8cc-44b5-bb81-0e6d3503bdc8): 2 |
+          true
+2025-01-13 17:46:08 [WebsocketServer - info]: Eu0BZKazwqH4VtNVAAAB válaszolt (69ba3b95-b8cc-44b5-bb81-0e6d3503bdc8): 3 |
+          true
+2025-01-13 17:46:29 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:46:32 [WebsocketServer - info]: Új kliens! ID: 5zc9xyvgT9CfkvoUAAAC
+2025-01-13 17:46:42 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:46:42 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 128
+2025-01-13 17:46:42 [WebsocketServer - info]: Új kliens! ID: P3GqjFMoHyHrSWxZAAAA
+2025-01-13 17:46:47 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:46:47 [WebsocketServer - info]: Új kliens! ID: IL81NoPIMMkJTea-AAAB
+2025-01-13 17:46:48 [WebsocketServer - info]: IL81NoPIMMkJTea-AAAB válaszolt (715f9d2f-8f5a-4486-a66c-0863f9f814e0): 2 |
+          true
+2025-01-13 17:46:50 [WebsocketServer - info]: IL81NoPIMMkJTea-AAAB válaszolt (715f9d2f-8f5a-4486-a66c-0863f9f814e0): 3 |
+          true
+2025-01-13 17:46:53 [WebsocketServer - info]: IL81NoPIMMkJTea-AAAB válaszolt (715f9d2f-8f5a-4486-a66c-0863f9f814e0): 3 |
+          true
+2025-01-13 17:46:55 [WebsocketServer - info]: IL81NoPIMMkJTea-AAAB válaszolt (715f9d2f-8f5a-4486-a66c-0863f9f814e0): 1 |
+          false
+2025-01-13 17:46:57 [WebsocketServer - info]: IL81NoPIMMkJTea-AAAB válaszolt (715f9d2f-8f5a-4486-a66c-0863f9f814e0): 3 |
+          true
+2025-01-13 17:48:09 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:48:13 [WebsocketServer - info]: Új kliens! ID: Vukwl0QglHEXiqZnAAAC
+2025-01-13 17:48:18 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:48:20 [WebsocketServer - info]: Új kliens! ID: rJM1mf2zCrcyJ38SAAAD
+2025-01-13 17:53:53 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 17:53:53 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 129
+2025-01-13 17:53:53 [WebsocketServer - info]: Új kliens! ID: CQMrS0STav9qJI9LAAAA
+2025-01-13 17:53:54 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 17:53:54 [WebsocketServer - info]: Új kliens! ID: rAd8SKEooJ7p8IVjAAAB
+2025-01-13 17:53:55 [WebsocketServer - info]: rAd8SKEooJ7p8IVjAAAB válaszolt (8bf2268f-16fd-4914-b2e5-dbed27e27012): 2
+2025-01-13 17:53:56 [WebsocketServer - info]: rAd8SKEooJ7p8IVjAAAB válaszolt (8bf2268f-16fd-4914-b2e5-dbed27e27012): 3
+2025-01-13 18:19:08 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 18:19:08 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 130
+2025-01-13 18:19:30 [WebsocketServer - info]: Új kliens! ID: wunBVt0A0K_wpd_8AAAA
+2025-01-13 18:19:34 [WebsocketServer - info]: wunBVt0A0K_wpd_8AAAA válaszolt (e1a74bbb-1505-4306-950d-1ed113b550ad): 2
+2025-01-13 18:19:36 [WebsocketServer - info]: wunBVt0A0K_wpd_8AAAA válaszolt (e1a74bbb-1505-4306-950d-1ed113b550ad): 3
+2025-01-13 18:20:37 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 18:20:37 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 131
+2025-01-13 18:20:45 [WebsocketServer - info]: Új kliens! ID: 9uZymzAL1G22ZG6vAAAA
+2025-01-13 18:20:47 [WebsocketServer - info]: 9uZymzAL1G22ZG6vAAAA válaszolt (1b05c555-6532-4fa2-9983-93e610c6dedb): 2
+2025-01-13 18:20:49 [WebsocketServer - info]: 9uZymzAL1G22ZG6vAAAA válaszolt (1b05c555-6532-4fa2-9983-93e610c6dedb): 2
+2025-01-13 18:20:55 [WebsocketServer - info]: 9uZymzAL1G22ZG6vAAAA válaszolt (1b05c555-6532-4fa2-9983-93e610c6dedb): 1
+2025-01-13 18:20:57 [WebsocketServer - info]: 9uZymzAL1G22ZG6vAAAA válaszolt (1b05c555-6532-4fa2-9983-93e610c6dedb): 1
+2025-01-13 18:20:58 [WebsocketServer - info]: 9uZymzAL1G22ZG6vAAAA válaszolt (1b05c555-6532-4fa2-9983-93e610c6dedb): 2
+2025-01-13 18:23:07 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 18:23:07 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 132
+2025-01-13 18:23:07 [WebsocketServer - info]: Új kliens! ID: MTFJEWKGf8MKDgPkAAAA
+2025-01-13 18:24:35 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 18:24:35 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 133
+2025-01-13 18:24:35 [WebsocketServer - info]: Új kliens! ID: xXZ1oTwCXVqpY-pUAAAA
+2025-01-13 18:24:47 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 18:24:48 [WebsocketServer - info]: Új kliens! ID: hQM_c9ZzbOG2Ov6kAAAB
+2025-01-13 18:24:50 [WebsocketServer - info]: hQM_c9ZzbOG2Ov6kAAAB válaszolt (bd38f222-8e49-44bc-80f0-9f657f078bdf): 1
+2025-01-13 18:24:52 [WebsocketServer - info]: hQM_c9ZzbOG2Ov6kAAAB válaszolt (bd38f222-8e49-44bc-80f0-9f657f078bdf): 4
+2025-01-13 18:25:16 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 18:25:16 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 134
+2025-01-13 18:25:17 [WebsocketServer - info]: Új kliens! ID: FvJhmmd9-qbDmPsXAAAA
+2025-01-13 18:25:18 [WebsocketServer - info]: FvJhmmd9-qbDmPsXAAAA válaszolt (52fb922f-ded6-44ef-bbe5-ee2cc622da16): 2
+2025-01-13 18:25:19 [WebsocketServer - info]: {"roomId":"52fb922f-ded6-44ef-bbe5-ee2cc622da16","question":"Ki volt Józsi?","answers":[{"answer":"Józsi","answer_id":3},{"answer":"Jani","answer_id":4}],"question_id":2}
+2025-01-13 18:25:20 [WebsocketServer - info]: FvJhmmd9-qbDmPsXAAAA válaszolt (52fb922f-ded6-44ef-bbe5-ee2cc622da16): 1
+2025-01-13 18:25:54 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 18:25:54 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 135
+2025-01-13 18:25:55 [WebsocketServer - info]: Új kliens! ID: hHKLWs9fmxNZlnBsAAAA
+2025-01-13 18:25:57 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 18:25:57 [WebsocketServer - info]: Új kliens! ID: ArRZnhCCnbBY271FAAAB
+2025-01-13 18:25:59 [WebsocketServer - info]: ArRZnhCCnbBY271FAAAB válaszolt (725e8831-f7bf-4d73-93d1-6292d53a03f4): 2
+2025-01-13 18:26:00 [WebsocketServer - info]: {"roomId":"725e8831-f7bf-4d73-93d1-6292d53a03f4","question":"Ki volt Józsi?","answers":[{"answer":"Józsi","answer_id":3},{"answer":"Jani","answer_id":4}],"question_id":2}
+2025-01-13 18:27:09 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 18:27:09 [WebsocketServer - info]: Új kliens! ID: 9t_UJPpe-OKDKDYsAAAC
+2025-01-13 18:27:13 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 18:27:13 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 136
+2025-01-13 18:27:13 [WebsocketServer - info]: Új kliens! ID: y26j8jsinbFEUxcYAAAA
+2025-01-13 18:27:13 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 18:27:13 [WebsocketServer - info]: Új kliens! ID: J8gy4pjA-yHL4c2iAAAB
+2025-01-13 18:27:15 [WebsocketServer - info]: J8gy4pjA-yHL4c2iAAAB válaszolt (401e0bed-c181-45fa-b6e6-c6fe88c0192d): 2
+2025-01-13 18:27:17 [WebsocketServer - info]: J8gy4pjA-yHL4c2iAAAB válaszolt (401e0bed-c181-45fa-b6e6-c6fe88c0192d): 3
+2025-01-13 18:27:23 [WebsocketServer - info]: J8gy4pjA-yHL4c2iAAAB válaszolt (401e0bed-c181-45fa-b6e6-c6fe88c0192d): 4
+2025-01-13 18:27:34 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 18:27:34 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 137
+2025-01-13 18:27:35 [WebsocketServer - info]: Új kliens! ID: z3UfvSaGjuRb14v4AAAA
+2025-01-13 18:27:36 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 18:27:36 [WebsocketServer - info]: Új kliens! ID: MbaAP1r4t7N5SElzAAAB
+2025-01-13 18:27:40 [WebsocketServer - info]: MbaAP1r4t7N5SElzAAAB válaszolt (7c65902f-2465-4754-8d3c-39c2cb7bf278): 2
+2025-01-13 18:27:42 [WebsocketServer - info]: MbaAP1r4t7N5SElzAAAB válaszolt (7c65902f-2465-4754-8d3c-39c2cb7bf278): 3
+2025-01-13 18:28:40 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 18:28:40 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 138
+2025-01-13 18:28:40 [WebsocketServer - info]: Új kliens! ID: 9g3qZX2VKa-a-j42AAAA
+2025-01-13 18:28:41 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 18:28:41 [WebsocketServer - info]: Új kliens! ID: ZWT6iN9Ir67tdxOLAAAB
+2025-01-13 18:28:43 [WebsocketServer - info]: ZWT6iN9Ir67tdxOLAAAB válaszolt (73df9046-859e-4691-96db-1c5928af10e0): 2
+2025-01-13 18:28:46 [WebsocketServer - info]: ZWT6iN9Ir67tdxOLAAAB válaszolt (73df9046-859e-4691-96db-1c5928af10e0): 4
+2025-01-13 18:28:51 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 18:28:52 [WebsocketServer - info]: Új kliens! ID: IjNk0KXD2bJNq4MkAAAC
+2025-01-13 18:28:54 [WebsocketServer - info]: IjNk0KXD2bJNq4MkAAAC válaszolt (b610c6cb-5180-4dc5-91be-c3ba24d575f6): 2
+2025-01-13 18:28:56 [WebsocketServer - info]: IjNk0KXD2bJNq4MkAAAC válaszolt (b610c6cb-5180-4dc5-91be-c3ba24d575f6): 4
+2025-01-13 18:29:17 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 18:29:17 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 139
+2025-01-13 18:29:17 [WebsocketServer - info]: Új kliens! ID: ysdaUZA-5O69I7VTAAAA
+2025-01-13 18:29:23 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 18:29:24 [WebsocketServer - info]: Új kliens! ID: ipVKMynFKzte2XxNAAAB
+2025-01-13 18:29:25 [WebsocketServer - info]: ipVKMynFKzte2XxNAAAB válaszolt (62cb78ef-198a-4bb8-bed5-85a06c921ef2): 2
+2025-01-13 18:29:30 [WebsocketServer - info]: ipVKMynFKzte2XxNAAAB válaszolt (62cb78ef-198a-4bb8-bed5-85a06c921ef2): 3
+2025-01-13 18:30:11 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 18:30:11 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 140
+2025-01-13 18:30:11 [WebsocketServer - info]: Új kliens! ID: JbB2kiQqpo7Z5gGoAAAA
+2025-01-13 18:30:12 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 18:30:13 [WebsocketServer - info]: Új kliens! ID: Ihs8RtfxOuxe3-mtAAAB
+2025-01-13 18:30:14 [WebsocketServer - info]: Ihs8RtfxOuxe3-mtAAAB válaszolt (51e7d41a-6f9b-4b4d-89be-8cb743a78901): 2
+2025-01-13 18:30:16 [WebsocketServer - info]: Ihs8RtfxOuxe3-mtAAAB válaszolt (51e7d41a-6f9b-4b4d-89be-8cb743a78901): 3
+2025-01-13 18:31:02 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 18:31:02 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 141
+2025-01-13 18:31:02 [WebsocketServer - info]: Új kliens! ID: RqJz8TQtr30K0u0qAAAA
+2025-01-13 18:31:02 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 18:31:03 [WebsocketServer - info]: Új kliens! ID: fRw2q9Gr_xRvDi8aAAAB
+2025-01-13 18:31:04 [WebsocketServer - info]: fRw2q9Gr_xRvDi8aAAAB válaszolt (b9f916eb-3273-4630-9589-8730e0ab03f8): 2
+2025-01-13 18:31:06 [WebsocketServer - info]: fRw2q9Gr_xRvDi8aAAAB válaszolt (b9f916eb-3273-4630-9589-8730e0ab03f8): 3
+2025-01-13 18:31:19 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 18:31:19 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 142
+2025-01-13 18:31:19 [WebsocketServer - info]: Új kliens! ID: T_e1PnYCg9Wc9qk1AAAA
+2025-01-13 18:31:37 [WebsocketServer - info]: A szerver elindult! Port: 3001
+2025-01-13 18:31:37 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 143
+2025-01-13 18:31:38 [WebsocketServer - info]: Új kliens! ID: U_4dusU6kav9oDuHAAAA
+2025-01-13 18:31:39 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 18:31:39 [WebsocketServer - info]: Új kliens! ID: 9ziHepRf-GgmzZCuAAAB
+2025-01-13 18:31:52 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 18:31:52 [WebsocketServer - info]: Új kliens! ID: oadvIR2PdTZLXA8zAAAC
+2025-01-13 18:32:00 [WebsocketServer - info]: oadvIR2PdTZLXA8zAAAC válaszolt (eec2fd75-9fcd-41f0-9a16-7e63acc22ea4): 2
+2025-01-13 18:32:04 [WebsocketServer - info]: oadvIR2PdTZLXA8zAAAC válaszolt (eec2fd75-9fcd-41f0-9a16-7e63acc22ea4): 3
+2025-01-13 18:32:09 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-13 18:32:10 [WebsocketServer - info]: Új kliens! ID: uCzN0mKhA-7WYjYMAAAD

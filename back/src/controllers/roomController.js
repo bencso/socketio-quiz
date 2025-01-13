@@ -126,8 +126,8 @@ const getRoom = (req, res) => {
 
 //----
 const getQuestion = (req, res) => {
-  let code = req.params.code;
-  const room = rooms.getRoom(code);
+  let roomId = req.params.roomId;
+  const room = rooms.getRoomById(roomId);
   const question_id = room.getQuestion();
 
   let sql = `
@@ -163,38 +163,61 @@ const nextQuestion = (req, res) => {
   let roomId = req.params.roomId;
   const room = rooms.getRoomById(roomId);
   if (room) {
-    room.nextQuestion();
-    res.status(200).send({
-      message: "Question set",
-    });
+    let question = room.nextQuestion();
+    if (question == -1) {
+      res.status(200).send({
+        end: true,
+        roomId: room.getId()
+      });
+    } else {
+      res.status(200).send({
+        roomId: room.getId(),
+        question: question,
+        end: false
+      });
+    }
   } else {
     res.status(404).send({
       message: "Room not found",
     });
   }
+
 }
 
 const answer = (req, res) => {
-  let roomId = req.params.roomId;
-  let answerId = req.body.answerId;
+  let code = req.params.code;
+  let playerId = req.body.playerId;
+  let answer = req.body.answer;
+  const room = rooms.getRoom(code);
+  room.answered(playerId);
+  let allAnswered = room.checkAnswers();
+  var correct = false;
   let sql = `
-    SELECT answer.answer_correct FROM answer WHERE answer.answer_id = ?;`;
-  connection.query(sql, [answerId], (err, results) => {
+    SELECT answer.answer_correct
+    FROM answer
+    WHERE answer.answer_id = ?;`;
+  connection.query(sql, [answer], (err, results) => {
     if (err) {
       console.log(err);
       res.status(500).send({
         message: "Internal server error",
       });
     } else {
-      logger.info(results[0].answer_correct);
-      let correct = results[0].answer_correct === 1 ? true : false;
+      if (results[0].answer_correct == 1) {
+        correct = true;
+      }
       res.status(200).send({
-        message: "Answer okay",
-        correct: correct,
+        roomId: room.getId(),
+        playerId: playerId,
+        answer: answer,
+        allAnswered: allAnswered,
+        correct: correct
       });
     }
-  });
+  }
+  );
 }
+
 
 module.exports = {
   getRooms,
