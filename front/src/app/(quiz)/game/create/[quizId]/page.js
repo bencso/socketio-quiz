@@ -15,6 +15,7 @@ export default function Page() {
   const [sceene, setSceene] = useState("lobby");
   const [players, setPlayers] = useState([]);
   const [question, setQuestion] = useState(null);
+  const [answers, setAnswers] = useState([]);
 
   useEffect(() => {
     if (!socket) return;
@@ -41,11 +42,13 @@ export default function Page() {
 
     socket.on("gameStarted", (data) => {
       setSceene("game");
-      socket.emit("nextQuestion", data);
+      socket.emit("reqQuestion", data);
     });
 
     socket.on("getQuestion", (data) => {
       console.log(data);
+      setQuestion(data.question);
+      setAnswers(data.answers);
     });
 
     return () => {
@@ -63,7 +66,7 @@ export default function Page() {
       )}
       {
         sceene === "game" && (
-          <Game />
+          <Game question={question} answers={answers} socket={socket} code={code} />
         )
       }
     </GameLayout>

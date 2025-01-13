@@ -93,14 +93,40 @@ io.on("connection", (socket) => {
   });
 
   socket.on("startGame", (code) => {
-    logger.info("Játék indítása! Szoba: " + code);
-    fetch(`${API_URL}/room/${code}`, {
-      method: "GET",
-    })
+    fetch(`${API_URL}/room/${code}`)
       .then((res) => res.json())
       .then((data) => {
         io.to(data.roomId).emit("gameStarted", data);
       });
+  });
+
+  socket.on("reqQuestion", (data) => {
+    fetch(`${API_URL}/room/${data.code}/question`, {
+      method: "GET",
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        logger.debug("Kérdés lekérdezése! Szoba: " + data.roomId);
+        io.to(data.roomId).emit("getQuestion", data);
+      });
+  });
+
+  socket.on("answer", (data) => {
+    const { code, answer } = data;
+    logger.info("Válasz érkezett! Szoba: " + roomId + " Válasz: " + answer);
+    fetch(`${API_URL}/room/${roomId}/answer`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        answerId: answer,
+      }),
+    }).then((res) => res.json()).then((data) => {
+      logger.info("Válasz küldése! Szoba: " + data.roomId);
+      logger.info("Helyes válasz: " + data.correct);
+    });
+
   });
 
   socket.on("nextQuestion", (data) => {

@@ -4,11 +4,16 @@ class Room {
     this.owner = owner;
     this.code = code;
     this.players = [];
+    this.question = [];
     this.currentQuestionIndex = 0;
   }
 
   addPlayer(player) {
     this.players.push(player);
+  }
+
+  addQuestion(question_id) {
+    this.question.push(question_id);
   }
 
   removePlayer(playerId) {
@@ -20,7 +25,7 @@ class Room {
   }
 
   getQuestion() {
-    return this.currentQuestionIndex;
+    return this.question[this.currentQuestionIndex];
   }
 
   getOwner() {

@@ -1,7 +1,7 @@
 // Importálások
 const express = require("express");
 const router = express.Router();
-const { createRoom, getRooms, joinRoom, nextQuestion, leaveRoom, getRoom } = require("../controllers/roomController");
+const { createRoom, getRooms, joinRoom, nextQuestion, leaveRoom, getQuestion, getRoom, answer } = require("../controllers/roomController");
 
 router.route("/").get((_, res) => {
     res.send(
@@ -23,7 +23,9 @@ router.route("/c/room/:quizId").post(createRoom);
 router.route("/l/room").post(leaveRoom);
 //----
 router.route("/room/:code").get(getRoom);
+router.route("/room/:code/question").get(getQuestion);
 router.route("/room/:roomId").put(nextQuestion);
+router.route("/room/:roomId/answer").post(answer);
 
 
 module.exports = router;

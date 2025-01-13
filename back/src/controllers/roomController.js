@@ -5,6 +5,7 @@ const { Rooms } = require("../models/Room");
 const { genereateCode } = require("../utils/codeGenerator");
 const connection = require("../config/db");
 const logger = require("../config/logger");
+const mysql = require("mysql");
 
 // Szoba deklarálása
 //? Ez azért lesz, hogy a szobákat le tudjuk tárolni, ezeket a szobákat
@@ -67,11 +68,13 @@ const createRoom = (req, res) => {
     } else {
       logger.debug(socketId);
       room.addPlayer(socketId);
+      results.forEach(element => {
+        room.addQuestion(element.question_id);
+      });
       logger.debug(room);
       res.status(200).send({
         roomId: room.getId(),
         code: room.getCode(),
-        questionsId: room.getQuestion(),
         players: room.getPlayers(),
       });
     }
@@ -104,22 +107,55 @@ const leaveRoom = (req, res) => {
   }
 };
 
-//----
-const getRoom = (req,res) => {
+const getRoom = (req, res) => {
   let code = req.params.code;
   const room = rooms.getRoom(code);
+
   if (room) {
     res.status(200).send({
       roomId: room.getId(),
       code: room.getCode(),
       players: room.getPlayers(),
-      questionId: room.getQuestion(),
     });
   } else {
     res.status(404).send({
       message: "Room not found",
     });
-  } 
+  }
+}
+
+//----
+const getQuestion = (req, res) => {
+  let code = req.params.code;
+  const room = rooms.getRoom(code);
+  const question_id = room.getQuestion();
+
+  let sql = `
+    SELECT questions.question_id, questions.question, answer.answer, answer.answer_id
+    FROM questions NATURAL JOIN answer
+    WHERE questions.question_id = ?;`;
+  connection.query(sql, [question_id], (err, results) => {
+    if (err) {
+      console.log(err);
+      res.status(500).send({
+        message: "Internal server error",
+      });
+    } else {
+      let answers = [];
+      results.forEach(element => {
+        answers.push({
+          answer: element.answer,
+          answer_id: element.answer_id
+        });
+      });
+      res.status(200).send({
+        roomId: room.getId(),
+        question: results[0].question,
+        answers: answers,
+        question_id: results[0].question_id
+      });
+    }
+  });
 }
 
 //----
@@ -138,11 +174,35 @@ const nextQuestion = (req, res) => {
   }
 }
 
+const answer = (req, res) => {
+  let roomId = req.params.roomId;
+  let answerId = req.body.answerId;
+  let sql = `
+    SELECT answer.answer_correct FROM answer WHERE answer.answer_id = ?;`;
+  connection.query(sql, [answerId], (err, results) => {
+    if (err) {
+      console.log(err);
+      res.status(500).send({
+        message: "Internal server error",
+      });
+    } else {
+      logger.info(results[0].answer_correct);
+      let correct = results[0].answer_correct === 1 ? true : false;
+      res.status(200).send({
+        message: "Answer okay",
+        correct: correct,
+      });
+    }
+  });
+}
+
 module.exports = {
   getRooms,
   joinRoom,
   createRoom,
   leaveRoom,
   getRoom,
+  getQuestion,
   nextQuestion,
+  answer
 };
