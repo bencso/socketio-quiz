@@ -85,9 +85,9 @@ io.on("connection", (socket) => {
   socket.on("playerJoin", (data) => {
     logger.info(
       "Játékos csatlakozott a szobához! Szoba: " +
-      data.roomId +
-      " Játékos: " +
-      data.player_id
+        data.roomId +
+        " Játékos: " +
+        data.player_id
     );
     io.to(data.roomId).emit("playerJoined", data.players);
   });
@@ -118,12 +118,11 @@ io.on("connection", (socket) => {
       },
       body: JSON.stringify({
         playerId: data.playerId,
-        answer: data.answer,
+        answerId: data.answerId,
       }),
     })
       .then((res) => res.json())
       .then((data) => {
-        logger.info(`${data.playerId} válaszolt (${data.roomId}): ${data.answer}`);
         if (data.allAnswered) {
           io.to(data.roomId).emit("allAnswered", data);
         }
@@ -139,8 +138,7 @@ io.on("connection", (socket) => {
         if (data.end) {
           io.to(data.roomId).emit("gameEnded");
           //TODO: Eredmények lekérése és továbbítása a kliensnek, és a szoba törlése
-        }
-        else {
+        } else {
           fetch(`${API_URL}/room/${data.roomId}/question`, {
             method: "GET",
           })
@@ -149,7 +147,7 @@ io.on("connection", (socket) => {
               io.to(data.roomId).emit("getQuestion", data);
             });
         }
-      })
+      });
   });
 
   socket.on("disconnect", () => {
@@ -165,9 +163,6 @@ io.on("connection", (socket) => {
       .then((res) => res.json())
       .then((data) => {
         io.to(data.roomId).emit("playerLeft", data.players);
-        logger.info("Kliens kilépett a szobából! Szoba: " + data.roomId, {
-          players: data.players,
-        });
       });
   });
 });

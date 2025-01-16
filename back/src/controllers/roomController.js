@@ -26,11 +26,9 @@ const getRooms = (_, res) => {
 const joinRoom = (req, res) => {
   let code = req.params.code;
   let socketId = req.body.socketId;
-  console.log(code,socketId);
   const room = rooms.getRoom(code);
   if (room) {
     room.addPlayer(socketId);
-    logger.log(room);
     res.status(200).send({
       roomId: room.getId(),
       code: room.getCode(),
@@ -67,7 +65,6 @@ const createRoom = (req, res) => {
         message: "Internal server error",
       });
     } else {
-      logger.debug(socketId);
       room.addPlayer(socketId);
       results.forEach(element => {
         room.addQuestion(element.question_id);
@@ -130,6 +127,7 @@ const getQuestion = (req, res) => {
   let roomId = req.params.roomId;
   const room = rooms.getRoomById(roomId);
   const question_id = room.getQuestion();
+  console.log(question_id);
 
   let sql = `
     SELECT questions.question_id, questions.question, answer.answer, answer.answer_id
@@ -188,29 +186,26 @@ const nextQuestion = (req, res) => {
 const answer = (req, res) => {
   let code = req.params.code;
   let playerId = req.body.playerId;
-  let answer = req.body.answer;
+  let answerId = req.body.answerId;
   const room = rooms.getRoom(code);
-  room.answered(playerId);
-  let allAnswered = room.checkAnswers();
+  let allAnswered = room.playerAnswered(playerId);
   var correct = false;
   let sql = `
     SELECT answer.answer_correct
     FROM answer
     WHERE answer.answer_id = ?;`;
-  connection.query(sql, [answer], (err, results) => {
+  connection.query(sql, [answerId], (err, results) => {
     if (err) {
       console.log(err);
       res.status(500).send({
         message: "Internal server error",
       });
     } else {
-      if (results[0].answer_correct == 1) {
-        correct = true;
-      }
+      if (results[0].answer_correct == 1) correct = true;
       res.status(200).send({
         roomId: room.getId(),
         playerId: playerId,
-        answer: answer,
+        answer: results[0].answer_correct,
         allAnswered: allAnswered,
         correct: correct
       });

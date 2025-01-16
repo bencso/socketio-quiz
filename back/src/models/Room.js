@@ -14,6 +14,7 @@ class Room {
       score: 0,
       answered: false,
     }
+    if(this.players.length === 0) _player.answered = true;
     this.players.push(_player);
   }
 
@@ -25,15 +26,18 @@ class Room {
     this.players = this.players.filter((p) => p !== playerId);
   }
 
-  answered(playerId) {
+  playerAnswered(playerId) {
     let player = this.players.find((p) => p.id === playerId);
     player.answered = true;
+    let allAnswered = this.players.every((p)=> p.answered);
+    if(allAnswered) this.players.forEach((p)=> p.answered = false);
+    return allAnswered;
   }
 
   checkAnswers() {
-    //TODO: Itt azt nem kell venni aki a leader/HOSTOLÓ
     return this.players.every((p)=> p.answered);
   }
+
 
   getPlayers() {
     return this.players;
@@ -61,8 +65,7 @@ class Room {
 
   nextQuestion() {
     this.currentQuestionIndex++;
-    if (this.currentQuestionIndex >= this.question.length) 
-      this.currentQuestionIndex = -1;
+    if(this.currentQuestionIndex >= this.question.length) this.currentQuestionIndex = 0;
     return this.currentQuestionIndex;
   }
 }

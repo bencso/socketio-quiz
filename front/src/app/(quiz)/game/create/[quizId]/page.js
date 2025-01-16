@@ -53,7 +53,6 @@ export default function Page() {
 
     socket.on("allAnswered", (data) => {
       setSceene("change");
-      console.log(data);
       setTimeout(() => {
         setSceene("game");
         socket.emit("nextQuestion", data);

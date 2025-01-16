@@ -1,3 +1,442 @@
 2025-01-16 12:24:44 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 91
 2025-01-16 12:24:44 [WebsocketServer - info]: Új kliens! ID: u0J5jBXpvLXqtqyjAAAA
 2025-01-16 12:24:44 [WebsocketServer - info]: Új kliens! ID: BA3ybRh7LJbtJavrAAAB
+2025-01-16 19:17:30 [WebsocketServer - error]: Adatbázis hiba: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1139:18)
+    at afterConnectMultiple (node:net:1712:7)
+    --------------------
+    at Protocol._enqueue (E:\socketio-quiz\back\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\socketio-quiz\back\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (E:\socketio-quiz\back\node_modules\mysql\lib\Connection.js:116:18)
+    at Object.<anonymous> (E:\socketio-quiz\back\server.js:9:12)
+    at Module._compile (node:internal/modules/cjs/loader:1740:14)
+    at Object..js (node:internal/modules/cjs/loader:1905:10)
+    at Module.load (node:internal/modules/cjs/loader:1474:32)
+    at Function._load (node:internal/modules/cjs/loader:1286:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:234:24)
+2025-01-16 19:22:55 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 8
+2025-01-16 19:23:16 [WebsocketServer - info]: Új kliens! ID: OwNMcXbm8EyvP3TvAAAA
+2025-01-16 19:23:16 [WebsocketServer - info]: Új kliens! ID: tvLF5hf65QAw76_XAAAB
+2025-01-16 19:23:55 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:23:55 [WebsocketServer - info]: Új kliens! ID: iqpJ_M8zgninRwPxAAAC
+2025-01-16 19:24:02 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:24:02 [WebsocketServer - info]: Új kliens! ID: 7isOEpwGqwNvWdk3AAAD
+2025-01-16 19:24:20 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:24:20 [WebsocketServer - info]: Új kliens! ID: etosatanaiT1598TAAAE
+2025-01-16 19:24:21 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:24:21 [WebsocketServer - info]: Új kliens! ID: cuiMO-qIUULXSl2CAAAF
+2025-01-16 19:24:29 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:24:29 [WebsocketServer - info]: Új kliens! ID: vi3La9QAK43Wu5OtAAAG
+2025-01-16 19:30:45 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 35
+2025-01-16 19:30:45 [WebsocketServer - info]: Új kliens! ID: 7siVlCxJ116Hoer5AAAA
+2025-01-16 19:30:47 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:30:47 [WebsocketServer - info]: Új kliens! ID: lABb4cWkuodbzkicAAAB
+2025-01-16 19:30:58 [WebsocketServer - info]: Új kliens! ID: GQdRipGkmCDBMmzRAAAC
+2025-01-16 19:31:03 [WebsocketServer - info]: lABb4cWkuodbzkicAAAB válaszolt (130cc2fb-e5ce-4c55-8afa-159b5f54b651): 2
+2025-01-16 19:31:11 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 36
+2025-01-16 19:31:11 [WebsocketServer - info]: Új kliens! ID: eKmPVCgsLTqukdZaAAAA
+2025-01-16 19:31:11 [WebsocketServer - info]: Új kliens! ID: c4fjsra7ONyXZJPOAAAB
+2025-01-16 19:33:47 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:33:47 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:33:48 [WebsocketServer - info]: Új kliens! ID: IFFIe5r7Y_orrDbzAAAC
+2025-01-16 19:33:48 [WebsocketServer - info]: Új kliens! ID: 0--X7TOTT1gBnvUmAAAD
+2025-01-16 19:33:55 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:33:55 [WebsocketServer - info]: Új kliens! ID: rIzFe3whI_GKKWhgAAAE
+2025-01-16 19:34:35 [WebsocketServer - info]: IFFIe5r7Y_orrDbzAAAC válaszolt (43bc51cd-2825-47e9-8775-e9ff84da9c35): 2
+2025-01-16 19:34:35 [WebsocketServer - info]: IFFIe5r7Y_orrDbzAAAC válaszolt (43bc51cd-2825-47e9-8775-e9ff84da9c35): 1
+2025-01-16 19:34:35 [WebsocketServer - info]: IFFIe5r7Y_orrDbzAAAC válaszolt (43bc51cd-2825-47e9-8775-e9ff84da9c35): 1
+2025-01-16 19:34:35 [WebsocketServer - info]: IFFIe5r7Y_orrDbzAAAC válaszolt (43bc51cd-2825-47e9-8775-e9ff84da9c35): 1
+2025-01-16 19:34:40 [WebsocketServer - info]: IFFIe5r7Y_orrDbzAAAC válaszolt (43bc51cd-2825-47e9-8775-e9ff84da9c35): 2
+2025-01-16 19:34:45 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:34:45 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:34:52 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 37
+2025-01-16 19:35:00 [WebsocketServer - info]: Új kliens! ID: XAkVboq45NA6bptPAAAA
+2025-01-16 19:35:14 [WebsocketServer - info]: Új kliens! ID: blhSXGNLHSdRR-zlAAAB
+2025-01-16 19:35:19 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:35:19 [WebsocketServer - info]: Új kliens! ID: 0jjEhNYEqsQz4C_dAAAC
+2025-01-16 19:35:53 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 38
+2025-01-16 19:35:53 [WebsocketServer - info]: Új kliens! ID: bfZHtM6cy6_oDfm_AAAA
+2025-01-16 19:35:55 [WebsocketServer - info]: Új kliens! ID: VDYN7Y6qklmAEgANAAAB
+2025-01-16 19:35:58 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:35:58 [WebsocketServer - info]: Új kliens! ID: TdCOb-O1JEFTXQMiAAAC
+2025-01-16 19:37:01 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 43
+2025-01-16 19:37:02 [WebsocketServer - info]: Új kliens! ID: CvmnMRjmB-79SezTAAAA
+2025-01-16 19:37:03 [WebsocketServer - info]: Új kliens! ID: AMJ-999SvGFkLnxcAAAB
+2025-01-16 19:37:05 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:37:05 [WebsocketServer - info]: Új kliens! ID: tgV2SpjZlJrQm02cAAAC
+2025-01-16 19:37:09 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:37:09 [WebsocketServer - info]: Új kliens! ID: EhlXbDPyOwFo51JQAAAD
+2025-01-16 19:37:16 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 44
+2025-01-16 19:37:16 [WebsocketServer - info]: Új kliens! ID: mD_AuwH992eYa1X1AAAA
+2025-01-16 19:37:16 [WebsocketServer - info]: Új kliens! ID: Cqrok1Bn8S0evvjVAAAB
+2025-01-16 19:37:19 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:37:19 [WebsocketServer - info]: Új kliens! ID: grxv1nvStbUTtXJuAAAC
+2025-01-16 19:37:23 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:37:23 [WebsocketServer - info]: Új kliens! ID: Qpq-a7gb4LQJzeeXAAAD
+2025-01-16 19:39:11 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 45
+2025-01-16 19:39:11 [WebsocketServer - info]: Új kliens! ID: WO7ckD6j35k6J7LMAAAA
+2025-01-16 19:39:11 [WebsocketServer - info]: Új kliens! ID: 6sjbApn8zNFcWjjCAAAB
+2025-01-16 19:39:12 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:39:12 [WebsocketServer - info]: Új kliens! ID: t1n5-SudLakbaDfSAAAC
+2025-01-16 19:39:15 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:39:16 [WebsocketServer - info]: Új kliens! ID: eD4vXzQ-CJhJiGcKAAAD
+2025-01-16 19:39:48 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 46
+2025-01-16 19:39:48 [WebsocketServer - info]: Új kliens! ID: 7c9vOJV7meP3XLTUAAAA
+2025-01-16 19:39:48 [WebsocketServer - info]: Új kliens! ID: cKlub151gWOH4dvpAAAB
+2025-01-16 19:39:50 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:39:50 [WebsocketServer - info]: Új kliens! ID: m2AUJeP7xesid-wfAAAC
+2025-01-16 19:39:50 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:39:51 [WebsocketServer - info]: Új kliens! ID: Nfvg0Fw2ayZlfwD6AAAD
+2025-01-16 19:39:53 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:39:54 [WebsocketServer - info]: Új kliens! ID: -iqAQh0hCgR4ObEnAAAE
+2025-01-16 19:40:46 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 47
+2025-01-16 19:40:46 [WebsocketServer - info]: Új kliens! ID: lFJ07tjzQcs9BHQcAAAA
+2025-01-16 19:40:46 [WebsocketServer - info]: Új kliens! ID: nB943DJpzFoDM2rnAAAB
+2025-01-16 19:40:49 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:40:49 [WebsocketServer - info]: Új kliens! ID: 8raHzh2iyLSwveHtAAAC
+2025-01-16 19:40:52 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:40:52 [WebsocketServer - info]: Új kliens! ID: bMXZ9lI9rMUDaPdrAAAD
+2025-01-16 19:41:07 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 48
+2025-01-16 19:41:07 [WebsocketServer - info]: Új kliens! ID: yDuqNcldNSBBeME3AAAA
+2025-01-16 19:41:09 [WebsocketServer - info]: Új kliens! ID: nr4SbgzQGVQLI9HXAAAB
+2025-01-16 19:41:12 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:41:12 [WebsocketServer - info]: Új kliens! ID: 4i6iumnlp2Nm3r62AAAC
+2025-01-16 19:41:15 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:41:15 [WebsocketServer - info]: Új kliens! ID: qj3xUMnEJXtu845dAAAD
+2025-01-16 19:41:17 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:41:18 [WebsocketServer - info]: Új kliens! ID: YrwF4dpPEnAk79ykAAAE
+2025-01-16 19:41:19 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:41:20 [WebsocketServer - info]: Új kliens! ID: 2AY9hNCVPo_SwzT2AAAF
+2025-01-16 19:41:55 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 49
+2025-01-16 19:41:58 [WebsocketServer - info]: Új kliens! ID: 9B6zTZZbIPDm509SAAAA
+2025-01-16 19:41:59 [WebsocketServer - info]: Új kliens! ID: Zy62rqbm4wOtZcmZAAAB
+2025-01-16 19:42:06 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:42:06 [WebsocketServer - info]: Új kliens! ID: leWXzVhT1DewIiPsAAAC
+2025-01-16 19:42:09 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:42:09 [WebsocketServer - info]: Új kliens! ID: JkeardIDs-5IO7tpAAAD
+2025-01-16 19:42:09 [WebsocketServer - info]: Játékos csatlakoztatva a szobába! Szoba: 168a91df-8f20-45cc-be27-2bece96eec64
+2025-01-16 19:42:52 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 50
+2025-01-16 19:42:52 [WebsocketServer - info]: Új kliens! ID: JAg8FRHqvVaOO5OkAAAA
+2025-01-16 19:42:52 [WebsocketServer - info]: Új kliens! ID: EisRVfhKQ5IOiWyCAAAB
+2025-01-16 19:42:53 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:42:54 [WebsocketServer - info]: Új kliens! ID: axhmBvMu3ULKM7cMAAAC
+2025-01-16 19:42:56 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:42:56 [WebsocketServer - info]: Új kliens! ID: TzCqUH4DOxXWOo87AAAD
+2025-01-16 19:42:56 [WebsocketServer - info]: Játékos csatlakoztatva a szobába! Szoba: 38b06b49-586c-4cdc-ae6f-4f5c2f6ee73f
+2025-01-16 19:47:26 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 51
+2025-01-16 19:47:32 [WebsocketServer - info]: Új kliens! ID: shXu5065U12Bp7gxAAAA
+2025-01-16 19:47:36 [WebsocketServer - info]: Új kliens! ID: 5kaCRBripL8cPIZuAAAB
+2025-01-16 19:47:43 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:47:43 [WebsocketServer - info]: Új kliens! ID: x3_jQD7QzvFVYftoAAAC
+2025-01-16 19:47:46 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:47:46 [WebsocketServer - info]: Új kliens! ID: MQOspfTWJ0xFxH1dAAAD
+2025-01-16 19:49:20 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 52
+2025-01-16 19:49:20 [WebsocketServer - info]: Új kliens! ID: XAP_rVz9vfGhR55QAAAA
+2025-01-16 19:49:20 [WebsocketServer - info]: Új kliens! ID: xd7twxruMcuj8UtxAAAB
+2025-01-16 19:49:52 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 53
+2025-01-16 19:49:52 [WebsocketServer - info]: Új kliens! ID: GbhakJ1Gc3FX6rtTAAAA
+2025-01-16 19:49:52 [WebsocketServer - info]: Új kliens! ID: 3ubmWKkTsfEhdPGTAAAB
+2025-01-16 19:50:06 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 54
+2025-01-16 19:50:06 [WebsocketServer - info]: Új kliens! ID: gPvhS-HhZurwhMIXAAAA
+2025-01-16 19:50:07 [WebsocketServer - info]: Új kliens! ID: fLknYZPkstb__BTAAAAB
+2025-01-16 19:50:07 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:50:07 [WebsocketServer - info]: Új kliens! ID: F61ijJo8gfRlHvEDAAAC
+2025-01-16 19:50:12 [WebsocketServer - info]: Kliens kilépett a szobából! Szoba: undefined
+2025-01-16 19:50:12 [WebsocketServer - info]: Új kliens! ID: 2zSPo5t-F-z3-LryAAAD
+2025-01-16 19:50:41 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 55
+2025-01-16 19:50:41 [WebsocketServer - info]: Új kliens! ID: MNyX5z8uf0Wz0__hAAAA
+2025-01-16 19:50:44 [WebsocketServer - info]: Új kliens! ID: N3JkuZw4sZFzTf6MAAAB
+2025-01-16 19:51:02 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 56
+2025-01-16 19:51:02 [WebsocketServer - info]: Új kliens! ID: bS_WAOQTDtA3xbdPAAAA
+2025-01-16 19:51:04 [WebsocketServer - info]: Új kliens! ID: xhVkBkiwIab0DW40AAAB
+2025-01-16 19:51:04 [WebsocketServer - info]: Új kliens! ID: ps6hwJ4R_Hao8qg2AAAC
+2025-01-16 19:51:08 [WebsocketServer - info]: Új kliens! ID: Xbv879ssYbQOYKCnAAAD
+2025-01-16 19:51:32 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 57
+2025-01-16 19:51:33 [WebsocketServer - info]: Új kliens! ID: ffl6jgO54yMztzGPAAAA
+2025-01-16 19:51:34 [WebsocketServer - info]: Új kliens! ID: bGNd7ciB9qLnG858AAAB
+2025-01-16 19:51:36 [WebsocketServer - info]: Új kliens! ID: YyC5TMxJ3h7MMszUAAAC
+2025-01-16 19:51:38 [WebsocketServer - info]: Új kliens! ID: QxCrEi1D5f8fm7qGAAAD
+2025-01-16 19:51:59 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 58
+2025-01-16 19:52:01 [WebsocketServer - info]: Új kliens! ID: aDoRqdWPkiV3-eRYAAAA
+2025-01-16 19:52:04 [WebsocketServer - info]: Új kliens! ID: xF5ncgOQYOsmO48NAAAB
+2025-01-16 19:52:06 [WebsocketServer - info]: Új kliens! ID: 2OIlQdHIbi_dZAJqAAAC
+2025-01-16 19:52:08 [WebsocketServer - info]: 2OIlQdHIbi_dZAJqAAAC válaszolt (e86ddfe6-46b1-4e42-b7d0-d8c4c6c52e63): undefined
+2025-01-16 19:52:52 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 59
+2025-01-16 19:52:53 [WebsocketServer - info]: Új kliens! ID: qk13eeb5q1hfnfVmAAAA
+2025-01-16 19:52:53 [WebsocketServer - info]: Új kliens! ID: 3dEdD7oPUixd2o9BAAAB
+2025-01-16 19:52:54 [WebsocketServer - info]: Új kliens! ID: wymuhJoMTklIThBWAAAC
+2025-01-16 19:52:57 [WebsocketServer - info]: Új kliens! ID: rj3Kp9IgvbT4AD7PAAAD
+2025-01-16 19:53:17 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 60
+2025-01-16 19:53:19 [WebsocketServer - info]: Új kliens! ID: 1AA_j9l_kGPt2BH6AAAA
+2025-01-16 19:53:20 [WebsocketServer - info]: Új kliens! ID: 4vPop9Q1mnl214rUAAAB
+2025-01-16 19:53:21 [WebsocketServer - info]: Új kliens! ID: fc_xUtnXVuUIq29OAAAC
+2025-01-16 19:53:23 [WebsocketServer - info]: Új kliens! ID: j_I8zEsir3Fgi85aAAAD
+2025-01-16 19:53:24 [WebsocketServer - info]: undefined
+2025-01-16 19:53:33 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 61
+2025-01-16 19:53:33 [WebsocketServer - info]: Új kliens! ID: bSsjglpA7XqrS49FAAAA
+2025-01-16 19:53:34 [WebsocketServer - info]: Új kliens! ID: UtNjIQbP_nWFT0zrAAAB
+2025-01-16 19:53:39 [WebsocketServer - info]: Új kliens! ID: VEXZinOSroICfGVfAAAC
+2025-01-16 19:53:42 [WebsocketServer - info]: 
+2025-01-16 19:54:08 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 62
+2025-01-16 19:54:08 [WebsocketServer - info]: Új kliens! ID: 6gfASRHEUC60MzsDAAAA
+2025-01-16 19:54:10 [WebsocketServer - info]: Új kliens! ID: pgtYx4rYa1DF1vxlAAAB
+2025-01-16 19:54:14 [WebsocketServer - info]: Új kliens! ID: msqBWNTLh9cEpvB-AAAC
+2025-01-16 19:54:15 [WebsocketServer - info]: Új kliens! ID: w7tnjxA-QljsJ8X4AAAD
+2025-01-16 19:54:17 [WebsocketServer - info]: 
+2025-01-16 19:54:32 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 63
+2025-01-16 19:54:32 [WebsocketServer - info]: Új kliens! ID: 89DgsRvk-6qxALQLAAAA
+2025-01-16 19:54:33 [WebsocketServer - info]: Új kliens! ID: K0Kuc4mH0Nnhn8VVAAAB
+2025-01-16 19:54:34 [WebsocketServer - info]: Új kliens! ID: ZFVLJxMqla7EcjL5AAAC
+2025-01-16 19:54:36 [WebsocketServer - info]: Új kliens! ID: m02nq2vCc5zgL4xMAAAD
+2025-01-16 19:55:00 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 64
+2025-01-16 19:55:01 [WebsocketServer - info]: Új kliens! ID: 3vDYbf7scbHb2hpbAAAA
+2025-01-16 19:55:02 [WebsocketServer - info]: Új kliens! ID: pUr0mKgnQIAxnRV7AAAB
+2025-01-16 19:55:03 [WebsocketServer - info]: Új kliens! ID: TgbC0lIZH8YOpCShAAAC
+2025-01-16 19:55:06 [WebsocketServer - info]: Új kliens! ID: qDXZyC_swB9-cunvAAAD
+2025-01-16 19:55:28 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 65
+2025-01-16 19:55:28 [WebsocketServer - info]: Új kliens! ID: Q0v6Ef2F75FpN02yAAAA
+2025-01-16 19:55:29 [WebsocketServer - info]: Új kliens! ID: pZHlVhcDX4jRjOlAAAAB
+2025-01-16 19:55:29 [WebsocketServer - info]: Új kliens! ID: KRvx4csRidz_tSHhAAAC
+2025-01-16 19:55:33 [WebsocketServer - info]: Új kliens! ID: xQxgeYom10Vf3zSrAAAD
+2025-01-16 19:55:59 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 66
+2025-01-16 19:55:59 [WebsocketServer - info]: Új kliens! ID: sLY54-C3ALByg-OYAAAA
+2025-01-16 19:56:00 [WebsocketServer - info]: Új kliens! ID: OvwA32dKfQFj4T-QAAAB
+2025-01-16 19:56:01 [WebsocketServer - info]: Új kliens! ID: ZjXxEYhpSAKdWpxgAAAC
+2025-01-16 19:56:03 [WebsocketServer - info]: Új kliens! ID: 3ud8K5lJfsYpKOI1AAAD
+2025-01-16 19:56:47 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 67
+2025-01-16 19:56:47 [WebsocketServer - info]: Új kliens! ID: RIBZ1tC0hxsR6CJnAAAA
+2025-01-16 19:56:49 [WebsocketServer - info]: Új kliens! ID: GDXADzU6oW-X74PJAAAB
+2025-01-16 19:56:59 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 68
+2025-01-16 19:57:00 [WebsocketServer - info]: Új kliens! ID: Mp8wusEkloq-VJOwAAAA
+2025-01-16 19:57:00 [WebsocketServer - info]: Új kliens! ID: FU6yRKIEvb-N7UKZAAAB
+2025-01-16 19:57:05 [WebsocketServer - info]: Új kliens! ID: EczfMiaGp9ubylvZAAAC
+2025-01-16 19:57:09 [WebsocketServer - info]: Új kliens! ID: yuzUkXciTZeDIU8bAAAD
+2025-01-16 19:57:19 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 69
+2025-01-16 19:57:19 [WebsocketServer - info]: Új kliens! ID: nEA_ZJ_L6CkmTKIFAAAA
+2025-01-16 19:57:19 [WebsocketServer - info]: Új kliens! ID: z-jkbK7GwJaRDZGJAAAB
+2025-01-16 19:57:21 [WebsocketServer - info]: Új kliens! ID: LBJkkmVzqSyfUEIpAAAC
+2025-01-16 19:57:24 [WebsocketServer - info]: Új kliens! ID: Z0OF0rzfrV5U8NXqAAAD
+2025-01-16 19:57:49 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 70
+2025-01-16 19:57:49 [WebsocketServer - info]: Új kliens! ID: DIOySRKMFA-lr6kvAAAA
+2025-01-16 19:57:50 [WebsocketServer - info]: Új kliens! ID: mKmD8vgcEgWkoUAwAAAB
+2025-01-16 19:57:50 [WebsocketServer - info]: Új kliens! ID: 4kEhW13aZlq-2uk5AAAC
+2025-01-16 19:57:53 [WebsocketServer - info]: Új kliens! ID: IF-SOKdfoL5gjmh5AAAD
+2025-01-16 19:57:54 [WebsocketServer - info]: [object Object]
+2025-01-16 19:58:18 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 71
+2025-01-16 19:58:19 [WebsocketServer - info]: Új kliens! ID: s69KafP-vaTl0xarAAAA
+2025-01-16 19:58:19 [WebsocketServer - info]: Új kliens! ID: LL2KCf6s5C9w10pVAAAB
+2025-01-16 19:58:20 [WebsocketServer - info]: Új kliens! ID: 4iuLhhYsy6l0ovruAAAC
+2025-01-16 19:58:23 [WebsocketServer - info]: Új kliens! ID: Lq1OEmJIq2gYyaZGAAAD
+2025-01-16 19:59:15 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 72
+2025-01-16 19:59:15 [WebsocketServer - info]: Új kliens! ID: EN5Hb4DKIvReIGAFAAAA
+2025-01-16 19:59:15 [WebsocketServer - info]: Új kliens! ID: mMdjeAl9-I7Y4BQFAAAB
+2025-01-16 19:59:16 [WebsocketServer - info]: Új kliens! ID: MDE5jHZ4Dk5Jk51XAAAC
+2025-01-16 19:59:18 [WebsocketServer - info]: Új kliens! ID: EXc5POvh8KKDqsMWAAAD
+2025-01-16 19:59:57 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 73
+2025-01-16 19:59:57 [WebsocketServer - info]: Új kliens! ID: vfqcVledcdhBvlfmAAAA
+2025-01-16 19:59:59 [WebsocketServer - info]: Új kliens! ID: fZSXtGfzN5muHG3qAAAB
+2025-01-16 19:59:59 [WebsocketServer - info]: Új kliens! ID: G2JVw_W7Z7ej3kAVAAAC
+2025-01-16 20:00:02 [WebsocketServer - info]: Új kliens! ID: q1lW6Tf-4KaDhmpSAAAD
+2025-01-16 20:01:55 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 74
+2025-01-16 20:01:56 [WebsocketServer - info]: Új kliens! ID: NrSL-4THlJ5JBcEDAAAA
+2025-01-16 20:01:56 [WebsocketServer - info]: Új kliens! ID: roxg2dxaMg2UZ2KIAAAB
+2025-01-16 20:01:57 [WebsocketServer - info]: Új kliens! ID: MGPtk8Cdhvd520U2AAAC
+2025-01-16 20:01:59 [WebsocketServer - info]: Új kliens! ID: _tVs0vn7G_ZlrR6xAAAD
+2025-01-16 20:02:42 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 75
+2025-01-16 20:02:42 [WebsocketServer - info]: Új kliens! ID: OHOoe2bjjt0S2AtJAAAA
+2025-01-16 20:02:42 [WebsocketServer - info]: Új kliens! ID: LdE8QNDT4PDRyZDjAAAB
+2025-01-16 20:02:43 [WebsocketServer - info]: Új kliens! ID: Klnzx-_DzbdhH7pUAAAC
+2025-01-16 20:02:47 [WebsocketServer - info]: Új kliens! ID: BJgQilHA_YMFVZ-PAAAD
+2025-01-16 20:03:31 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 76
+2025-01-16 20:03:31 [WebsocketServer - info]: Új kliens! ID: uN1IHkNuzAxznAjLAAAA
+2025-01-16 20:03:32 [WebsocketServer - info]: Új kliens! ID: OuF2RLQgBGa9yMQMAAAB
+2025-01-16 20:03:35 [WebsocketServer - info]: Új kliens! ID: Ss2wKBzyO8Cr0dU5AAAC
+2025-01-16 20:04:22 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 77
+2025-01-16 20:04:22 [WebsocketServer - info]: Új kliens! ID: 9j_ovDB5y_wXNjfDAAAA
+2025-01-16 20:04:23 [WebsocketServer - info]: Új kliens! ID: YFjdKlEDRcQ3ev8DAAAB
+2025-01-16 20:04:25 [WebsocketServer - info]: Új kliens! ID: MrvloVdC2AR7lj7GAAAC
+2025-01-16 20:04:43 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 78
+2025-01-16 20:04:44 [WebsocketServer - info]: Új kliens! ID: TdKBLT4hy5dcCigyAAAA
+2025-01-16 20:04:48 [WebsocketServer - info]: Új kliens! ID: MFi8NjwIYkZOyoQrAAAB
+2025-01-16 20:04:50 [WebsocketServer - info]: Új kliens! ID: SmoSkDrlIbADFnRnAAAC
+2025-01-16 20:04:52 [WebsocketServer - info]: Új kliens! ID: OoWcYge5Nsgi80IOAAAD
+2025-01-16 20:05:08 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 79
+2025-01-16 20:05:09 [WebsocketServer - info]: Új kliens! ID: tqH58lp28ht51rn0AAAA
+2025-01-16 20:05:13 [WebsocketServer - info]: Új kliens! ID: 8F0u_IAeuUlEsdWGAAAB
+2025-01-16 20:05:16 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 80
+2025-01-16 20:05:16 [WebsocketServer - info]: Új kliens! ID: GLvXXd0F5apTnW9uAAAA
+2025-01-16 20:05:16 [WebsocketServer - info]: Új kliens! ID: g-nYlOnzqeueo7WQAAAB
+2025-01-16 20:05:17 [WebsocketServer - info]: Új kliens! ID: cyZBsRB_QW7rLPGlAAAC
+2025-01-16 20:05:21 [WebsocketServer - info]: Új kliens! ID: W7KMebhhvCuJdCz-AAAD
+2025-01-16 20:05:23 [WebsocketServer - info]: Új kliens! ID: 10fKVe8ZZbSsnd5rAAAE
+2025-01-16 20:06:16 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 81
+2025-01-16 20:06:16 [WebsocketServer - info]: Új kliens! ID: KPANbv0DrqhhA29BAAAA
+2025-01-16 20:06:16 [WebsocketServer - info]: Új kliens! ID: GgsQclERzNATRUnAAAAB
+2025-01-16 20:06:18 [WebsocketServer - info]: Új kliens! ID: ufJY3HZWTqv7505mAAAC
+2025-01-16 20:06:21 [WebsocketServer - info]: Új kliens! ID: NtYooGLSJnJyQp17AAAD
+2025-01-16 20:07:10 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 82
+2025-01-16 20:07:10 [WebsocketServer - info]: Új kliens! ID: Jdw7dM8QYEpq32-zAAAA
+2025-01-16 20:07:11 [WebsocketServer - info]: Új kliens! ID: OBJScDOlddJlIBn5AAAB
+2025-01-16 20:07:11 [WebsocketServer - info]: Új kliens! ID: 5-LteCtjOxMT10ODAAAC
+2025-01-16 20:07:14 [WebsocketServer - info]: Új kliens! ID: GKor9HEWUZ7jF2nSAAAD
+2025-01-16 20:08:51 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 83
+2025-01-16 20:08:51 [WebsocketServer - info]: Új kliens! ID: cfM8uSFZcwztKKw3AAAA
+2025-01-16 20:08:52 [WebsocketServer - info]: Új kliens! ID: 9Qwl-p3wsLOlE5quAAAB
+2025-01-16 20:08:53 [WebsocketServer - info]: Új kliens! ID: QpfzxSST_OL9JXCMAAAC
+2025-01-16 20:08:55 [WebsocketServer - info]: Új kliens! ID: jDZf8yqamZooekQ3AAAD
+2025-01-16 20:09:35 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 84
+2025-01-16 20:09:35 [WebsocketServer - info]: Új kliens! ID: N1FohnJdVnULRVsvAAAA
+2025-01-16 20:09:38 [WebsocketServer - info]: Új kliens! ID: Zbea-uYgwzjqLc5xAAAB
+2025-01-16 20:09:41 [WebsocketServer - info]: Új kliens! ID: bFYpykpL93EWtKreAAAC
+2025-01-16 20:09:58 [WebsocketServer - info]: Új kliens! ID: lZBTWT99paTnlrq2AAAD
+2025-01-16 20:10:31 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 85
+2025-01-16 20:10:31 [WebsocketServer - info]: Új kliens! ID: FFPPa_bZHUJu01t-AAAA
+2025-01-16 20:10:32 [WebsocketServer - info]: Új kliens! ID: aHedhetmvEwUuC2WAAAB
+2025-01-16 20:10:35 [WebsocketServer - info]: Új kliens! ID: LbLVq4aIv-otkVxOAAAC
+2025-01-16 20:10:44 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 86
+2025-01-16 20:10:44 [WebsocketServer - info]: Új kliens! ID: c1FErSKybdNWpz7-AAAA
+2025-01-16 20:10:46 [WebsocketServer - info]: Új kliens! ID: ntO5z_-9NtL0BEcpAAAB
+2025-01-16 20:10:46 [WebsocketServer - info]: Új kliens! ID: 241Z0wQQTloKTvJlAAAC
+2025-01-16 20:10:49 [WebsocketServer - info]: Új kliens! ID: wstHLeZ_LvtFR1HPAAAD
+2025-01-16 20:11:45 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 87
+2025-01-16 20:11:45 [WebsocketServer - info]: Új kliens! ID: GiT9fwYwXklKHn4VAAAA
+2025-01-16 20:11:47 [WebsocketServer - info]: Új kliens! ID: EcOEouvNQPFhGpymAAAB
+2025-01-16 20:11:47 [WebsocketServer - info]: Új kliens! ID: BzL2W-aJYyRdxlXzAAAC
+2025-01-16 20:11:50 [WebsocketServer - info]: Új kliens! ID: iYYewcWijOmupKjuAAAD
+2025-01-16 20:11:52 [WebsocketServer - info]: Új kliens! ID: SyGo8nC4cNVI1hd0AAAE
+2025-01-16 20:13:23 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 88
+2025-01-16 20:13:23 [WebsocketServer - info]: Új kliens! ID: 2oa8SSidVwE55AVIAAAA
+2025-01-16 20:13:24 [WebsocketServer - info]: Új kliens! ID: BS4Miq9WhtMx0cesAAAB
+2025-01-16 20:13:28 [WebsocketServer - info]: Új kliens! ID: 0QbuylEAnqQPieObAAAC
+2025-01-16 20:16:38 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 89
+2025-01-16 20:16:38 [WebsocketServer - info]: Új kliens! ID: Ee_Dx2AivIO6v2WAAAAA
+2025-01-16 20:16:38 [WebsocketServer - info]: Új kliens! ID: 9yS9ONTWc_qGqR-pAAAB
+2025-01-16 20:16:41 [WebsocketServer - info]: Új kliens! ID: UQyIZ9L038sjcaCmAAAC
+2025-01-16 20:16:46 [WebsocketServer - info]: Új kliens! ID: wkTHVY-THJMiq1zJAAAD
+2025-01-16 20:17:01 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 90
+2025-01-16 20:17:01 [WebsocketServer - info]: Új kliens! ID: N5gBcLqcqcwTyJIDAAAA
+2025-01-16 20:17:01 [WebsocketServer - info]: Új kliens! ID: qtnhtFJDfQlW81iwAAAB
+2025-01-16 20:17:03 [WebsocketServer - info]: Új kliens! ID: w6EBLKvKGMBzFfWwAAAC
+2025-01-16 20:17:05 [WebsocketServer - info]: Új kliens! ID: rLphE39DO_V2RMY4AAAD
+2025-01-16 20:19:47 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 91
+2025-01-16 20:19:47 [WebsocketServer - info]: Új kliens! ID: 3GMy8CF68W_kowTVAAAA
+2025-01-16 20:19:47 [WebsocketServer - info]: Új kliens! ID: IXxas0qgb_PIc_WRAAAB
+2025-01-16 20:19:50 [WebsocketServer - info]: Új kliens! ID: d3jjG0m808iXnn-dAAAC
+2025-01-16 20:19:53 [WebsocketServer - info]: Új kliens! ID: hAj2GR5_LyY1tOBDAAAD
+2025-01-16 20:19:55 [WebsocketServer - info]: Új kliens! ID: 2RwYAU3LDR26iNyGAAAE
+2025-01-16 20:19:56 [WebsocketServer - info]: Új kliens! ID: mSQh_vToWeKSXL50AAAF
+2025-01-16 20:20:09 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 92
+2025-01-16 20:20:09 [WebsocketServer - info]: Új kliens! ID: KVlzc_8PKxT6-UX6AAAA
+2025-01-16 20:20:09 [WebsocketServer - info]: Új kliens! ID: 4NXt74oTFQAmXvvzAAAB
+2025-01-16 20:20:10 [WebsocketServer - info]: Új kliens! ID: _mdhniw82OA_iHeaAAAC
+2025-01-16 20:20:13 [WebsocketServer - info]: Új kliens! ID: isYDD6j7lR2C8iQTAAAD
+2025-01-16 20:20:53 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 93
+2025-01-16 20:20:53 [WebsocketServer - info]: Új kliens! ID: nxwzNloXO_91Z56sAAAA
+2025-01-16 20:20:54 [WebsocketServer - info]: Új kliens! ID: YzAUemanLkgQulq8AAAB
+2025-01-16 20:20:55 [WebsocketServer - info]: Új kliens! ID: Y4xfDn2WCEDGQIXGAAAC
+2025-01-16 20:20:58 [WebsocketServer - info]: Új kliens! ID: ayHoE9MrQ9krFEnXAAAD
+2025-01-16 20:21:19 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 94
+2025-01-16 20:21:20 [WebsocketServer - info]: Új kliens! ID: AY55XAE4PhtFnj-IAAAA
+2025-01-16 20:21:20 [WebsocketServer - info]: Új kliens! ID: rsQ6zmets8RdEIQwAAAB
+2025-01-16 20:21:21 [WebsocketServer - info]: Új kliens! ID: -QMpoRKgixtuRb2cAAAC
+2025-01-16 20:21:23 [WebsocketServer - info]: Új kliens! ID: McC7F5uAp8TDqfVMAAAD
+2025-01-16 20:21:37 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 95
+2025-01-16 20:21:38 [WebsocketServer - info]: Új kliens! ID: pxUhgia4aOZ86ZlNAAAA
+2025-01-16 20:21:39 [WebsocketServer - info]: Új kliens! ID: 2ZHOWWxa9g5GSqMGAAAB
+2025-01-16 20:21:42 [WebsocketServer - info]: Új kliens! ID: IrEcahjUCkbjdEDxAAAC
+2025-01-16 20:23:19 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 96
+2025-01-16 20:23:20 [WebsocketServer - info]: Új kliens! ID: hdsDvUz2kHEyJNYrAAAA
+2025-01-16 20:23:20 [WebsocketServer - info]: Új kliens! ID: CPcI0hrJ3xbYPgx2AAAB
+2025-01-16 20:23:28 [WebsocketServer - info]: Új kliens! ID: GF2UcHH9ijLQ3cO9AAAC
+2025-01-16 20:23:32 [WebsocketServer - info]: Új kliens! ID: TzcO0UCKw8laDfhSAAAD
+2025-01-16 20:24:55 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 97
+2025-01-16 20:24:56 [WebsocketServer - info]: Új kliens! ID: T7DqFQNVJoN1gCpBAAAA
+2025-01-16 20:24:56 [WebsocketServer - info]: Új kliens! ID: eYrI_HUNDrPVLs5AAAAB
+2025-01-16 20:24:57 [WebsocketServer - info]: Új kliens! ID: LIJeAyKcpz4vpeJpAAAC
+2025-01-16 20:25:01 [WebsocketServer - info]: Új kliens! ID: 0aiTInq0hovy4c0yAAAD
+2025-01-16 20:26:44 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 98
+2025-01-16 20:26:44 [WebsocketServer - info]: Új kliens! ID: DpdcuSHr8zfmkk-ZAAAA
+2025-01-16 20:26:45 [WebsocketServer - info]: Új kliens! ID: gViDUb9yvdg0bI8QAAAB
+2025-01-16 20:26:46 [WebsocketServer - info]: Új kliens! ID: KdZYNCE5vDPsla6eAAAC
+2025-01-16 20:26:49 [WebsocketServer - info]: Új kliens! ID: rIj6aoCAQmMkdmCGAAAD
+2025-01-16 20:27:36 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 99
+2025-01-16 20:27:36 [WebsocketServer - info]: Új kliens! ID: v7CKZ-j8HnfJPVH2AAAA
+2025-01-16 20:27:37 [WebsocketServer - info]: Új kliens! ID: GmnHIx21YR0pLDDcAAAB
+2025-01-16 20:27:39 [WebsocketServer - info]: Új kliens! ID: 0j67ZU1tfS1cJ_smAAAC
+2025-01-16 20:27:41 [WebsocketServer - info]: Új kliens! ID: EodkucheHGghjnorAAAD
+2025-01-16 20:29:09 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 100
+2025-01-16 20:29:09 [WebsocketServer - info]: Új kliens! ID: kTY0oLk3L8nhXsatAAAA
+2025-01-16 20:29:09 [WebsocketServer - info]: Új kliens! ID: ZAGTxvO1MDzj8-P6AAAB
+2025-01-16 20:29:10 [WebsocketServer - info]: Új kliens! ID: CQNJhx7QC1RpXsCtAAAC
+2025-01-16 20:29:13 [WebsocketServer - info]: Új kliens! ID: KGXpyGoP9J9CtWflAAAD
+2025-01-16 20:29:49 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 101
+2025-01-16 20:29:49 [WebsocketServer - info]: Új kliens! ID: eEszHkWoiu6QpM6KAAAA
+2025-01-16 20:29:51 [WebsocketServer - info]: Új kliens! ID: _Nv7h68e0niaeMIdAAAB
+2025-01-16 20:29:55 [WebsocketServer - info]: Új kliens! ID: tr_QLpAu8lRII3m-AAAC
+2025-01-16 20:31:26 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 102
+2025-01-16 20:31:26 [WebsocketServer - info]: Új kliens! ID: eV5SgtVJmHkvDJe_AAAA
+2025-01-16 20:31:26 [WebsocketServer - info]: Új kliens! ID: 8wYAQjSDfmKibmIJAAAB
+2025-01-16 20:31:31 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 103
+2025-01-16 20:31:32 [WebsocketServer - info]: Új kliens! ID: _ETGRb6YSPhIjz0qAAAA
+2025-01-16 20:31:32 [WebsocketServer - info]: Új kliens! ID: -tooLVjJoleXEo6IAAAB
+2025-01-16 20:31:35 [WebsocketServer - info]: Új kliens! ID: ANeBTE7XZ2xUTafIAAAC
+2025-01-16 20:31:37 [WebsocketServer - info]: Új kliens! ID: gGPlW1pJ8ZlwuHniAAAD
+2025-01-16 20:31:54 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 104
+2025-01-16 20:31:54 [WebsocketServer - info]: Új kliens! ID: OrJXToz7lch0AjvOAAAA
+2025-01-16 20:31:55 [WebsocketServer - info]: Új kliens! ID: a3WYw4DqtomCg0w3AAAB
+2025-01-16 20:31:56 [WebsocketServer - info]: Új kliens! ID: pmTA1DFTH-4V8RsoAAAC
+2025-01-16 20:32:00 [WebsocketServer - info]: Új kliens! ID: sSMhsRCgJE7tOX1MAAAD
+2025-01-16 20:32:10 [WebsocketServer - info]: Új kliens! ID: gT_SB0lLwsUbzXn2AAAE
+2025-01-16 20:32:24 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 105
+2025-01-16 20:32:24 [WebsocketServer - info]: Új kliens! ID: Lq_IBKEjpv6j1jjvAAAA
+2025-01-16 20:32:25 [WebsocketServer - info]: Új kliens! ID: azZEWjfpfEYxiwGRAAAB
+2025-01-16 20:32:26 [WebsocketServer - info]: Új kliens! ID: NHt-ca610wu4WqqGAAAC
+2025-01-16 20:32:42 [WebsocketServer - info]: Új kliens! ID: CVZx-Nn95RfBSYSFAAAD
+2025-01-16 20:32:44 [WebsocketServer - info]: Új kliens! ID: j0kP3H7BwZ9LchoeAAAE
+2025-01-16 20:33:01 [WebsocketServer - info]: Új kliens! ID: oNBhwkRkl1kad8mKAAAF
+2025-01-16 20:33:04 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 106
+2025-01-16 20:33:04 [WebsocketServer - info]: Új kliens! ID: A5iudNVZHAz3xbg6AAAA
+2025-01-16 20:33:04 [WebsocketServer - info]: Új kliens! ID: xqQkCSbrRZY9HdZMAAAB
+2025-01-16 20:33:13 [WebsocketServer - info]: Új kliens! ID: pAnSCRqBqhqsgIEPAAAC
+2025-01-16 20:33:16 [WebsocketServer - info]: Új kliens! ID: CnVv_sZTgBsFsbsmAAAD
+2025-01-16 20:34:18 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 107
+2025-01-16 20:34:18 [WebsocketServer - info]: Új kliens! ID: sAfwwInLrH48TzNLAAAA
+2025-01-16 20:34:23 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 108
+2025-01-16 20:34:23 [WebsocketServer - info]: Új kliens! ID: QPd18qbSsQW9890LAAAA
+2025-01-16 20:34:23 [WebsocketServer - info]: Új kliens! ID: 91ITP3yqJdg2SkiQAAAB
+2025-01-16 20:34:25 [WebsocketServer - info]: Új kliens! ID: -KOZypS3l3XOWR26AAAC
+2025-01-16 20:34:28 [WebsocketServer - info]: Új kliens! ID: Ezr40-vjW1fffMJlAAAD
+2025-01-16 20:35:17 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 109
+2025-01-16 20:35:17 [WebsocketServer - info]: Új kliens! ID: Z4gSj-7jgvbk76NPAAAA
+2025-01-16 20:35:20 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 110
+2025-01-16 20:35:20 [WebsocketServer - info]: Új kliens! ID: OmEKVFjVWjanJ2NTAAAA
+2025-01-16 20:35:20 [WebsocketServer - info]: Új kliens! ID: bUoqfiSXVHRw45L-AAAB
+2025-01-16 20:35:21 [WebsocketServer - info]: Új kliens! ID: E0ekCwHSQx3HKw2tAAAC
+2025-01-16 20:35:23 [WebsocketServer - info]: Új kliens! ID: dKFxg5ySrE0Y5xacAAAD
+2025-01-16 20:35:42 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 111
+2025-01-16 20:35:42 [WebsocketServer - info]: Új kliens! ID: X8H5JY2_VWHDS564AAAA
+2025-01-16 20:35:43 [WebsocketServer - info]: Új kliens! ID: xwkMKlbdLd8zPYAOAAAB
+2025-01-16 20:35:46 [WebsocketServer - info]: Új kliens! ID: w4C5kgNEn5N11inVAAAC
+2025-01-16 20:36:33 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 136
+2025-01-16 20:36:33 [WebsocketServer - info]: Új kliens! ID: tzEuoh6ZrjP96GqLAAAA
+2025-01-16 20:36:36 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 137
+2025-01-16 20:36:36 [WebsocketServer - info]: Új kliens! ID: e7IS6rtH42sAyM4LAAAA
+2025-01-16 20:36:36 [WebsocketServer - info]: Új kliens! ID: EUYy_dnzM722Xa7DAAAB
+2025-01-16 20:36:38 [WebsocketServer - info]: Új kliens! ID: UPoDJ9jIvBhXA4klAAAC
+2025-01-16 20:37:15 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 138
+2025-01-16 20:37:16 [WebsocketServer - info]: Új kliens! ID: -YAnVNaj3U8Jbdi0AAAA
+2025-01-16 20:37:16 [WebsocketServer - info]: Új kliens! ID: k_N1UkzPRMKKCt0tAAAB
+2025-01-16 20:37:17 [WebsocketServer - info]: Új kliens! ID: nenuxhxrS-i8MP-fAAAC
+2025-01-16 20:37:19 [WebsocketServer - info]: Új kliens! ID: aY5oWbpGRj137ZAIAAAD
+2025-01-16 20:37:37 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 139
+2025-01-16 20:37:37 [WebsocketServer - info]: Új kliens! ID: 4QNTGRRgV295zA3bAAAA
+2025-01-16 20:37:37 [WebsocketServer - info]: Új kliens! ID: PYB19Me60C4cL1pmAAAB
+2025-01-16 20:37:41 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 140
+2025-01-16 20:37:41 [WebsocketServer - info]: Új kliens! ID: R1PdeQVO-6bXm7doAAAA
+2025-01-16 20:37:41 [WebsocketServer - info]: Új kliens! ID: g2BMDd2PMnShpQLIAAAB
+2025-01-16 20:37:45 [WebsocketServer - info]: Új kliens! ID: I8AmypXizpGnbr-cAAAC
+2025-01-16 20:38:22 [WebsocketServer - info]: Csatlakozva az adatbázishoz! ID: 141
+2025-01-16 20:38:22 [WebsocketServer - info]: Új kliens! ID: 2WYHGy_Ai6bRH3h4AAAA
+2025-01-16 20:38:23 [WebsocketServer - info]: Új kliens! ID: NSztEvRQxxGHt5-EAAAB
+2025-01-16 20:38:26 [WebsocketServer - info]: Új kliens! ID: 1fF_bMFCnuIjEgDlAAAC
