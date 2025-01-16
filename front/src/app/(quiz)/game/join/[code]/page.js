@@ -8,15 +8,13 @@ import Lobby from "@/app/_components/game/lobby";
 import Game from "@/app/_components/game/game";
 
 export default function Page() {
+  const { code } = useParams();
   const socket = useSocket();
   const [error, setError] = useState(null);
-  const [code, setCode] = useState(null);
   const [sceene, setSceene] = useState("lobby");
   const [players, setPlayers] = useState([]);
   const [question, setQuestion] = useState(null);
   const [answers, setAnswers] = useState([]);
-
-  setCode(useParams().code);
 
   useEffect(() => {
     if (!socket) return;
@@ -27,17 +25,15 @@ export default function Page() {
     });
 
     socket.on("joinedRoom", (data) => {
-      console.log(data);
-      setPlayers([...data]);
+      setPlayers([...data.players]);
     });
 
     socket.on("playerJoined", (data) => {
-      setPlayers([...data]);
+      setPlayers([...data.players]);
     });
 
     socket.on("playerLeft", (data) => {
-      setPlayers([...data]);
-      console.log(data);
+      setPlayers([...data.players]);
     });
 
     socket.on("gameStarted", (data) => {
@@ -68,7 +64,7 @@ export default function Page() {
     return () => {
       socket.off("error");
     };
-  }, [socket]);
+  }, [code, socket]);
 
 
   return (

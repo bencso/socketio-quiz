@@ -31,7 +31,8 @@ class Room {
   }
 
   checkAnswers() {
-    return this.players.every((p) => p.answered);
+    //TODO: Itt azt nem kell venni aki a leader/HOSTOLÓ
+    return this.players.every((p)=> p.answered);
   }
 
   getPlayers() {

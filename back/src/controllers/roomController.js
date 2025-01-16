@@ -26,7 +26,7 @@ const getRooms = (_, res) => {
 const joinRoom = (req, res) => {
   let code = req.params.code;
   let socketId = req.body.socketId;
-  code = code.toUpperCase();
+  console.log(code,socketId);
   const room = rooms.getRoom(code);
   if (room) {
     room.addPlayer(socketId);

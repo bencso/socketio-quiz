@@ -184,5 +184,5 @@ app.use((_, res, next) => {
 app.use("/api", require("./src/routes/routes"));
 
 server.listen(PORT, () => {
-  logger.info("A szerver elindult! Port: " + PORT);
+  logger.debug("A szerver elindult! Port: " + PORT);
 });

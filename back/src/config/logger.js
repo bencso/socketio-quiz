@@ -2,7 +2,16 @@ const winston = require("winston");
 // Logoló beállítás
 //? A logolásra winstont használunk, hogy átláthatóbb legyen az egész.
 const logger = winston.createLogger({
-    level: "info",
+    levels: {
+        emerg: 0,
+        alert: 1,
+        crit: 2,
+        error: 3,
+        warning: 4,
+        notice: 5,
+        info: 6,
+        debug: 7
+    },
     format: winston.format.combine(
         winston.format.timestamp({
             format: "YYYY-MM-DD HH:mm:ss",
