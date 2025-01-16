@@ -5,11 +5,12 @@ export default function Game({
     question,
     answers,
     socket,
-    code
+    code,
+    isOwner,
 }) {
 
     function selectAnswer(answer, socket, code) {
-        socket.emit("answer", { answer, code , playerId: socket.id });
+        socket.emit("answer", { answer, code, playerId: socket.id });
     }
 
     return (
@@ -18,9 +19,9 @@ export default function Game({
             <h2>{question}</h2>
             <ul>
                 {
-                    answers.map((answer, index) => {
+                    answers.map((answer, _) => {
                         return (
-                            <li key={index} onClick={() => selectAnswer(answer.answer_id, socket, code)}>{answer.answer}</li>
+                            isOwner ? <li key={answer.answer_id} onClick={() => selectAnswer(answer.answer_id, socket, code)}>{answer.answer}</li> : <li key={answer.answer_id}>{answer.answer}</li>
                         );
                     })
                 }

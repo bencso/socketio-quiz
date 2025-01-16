@@ -80,7 +80,7 @@ export default function Page() {
       )}
       {
         sceene === "game" && (
-          <Game question={question} answers={answers} socket={socket} code={code} />
+          <Game isOwner={true} question={question} answers={answers} socket={socket} code={code} />
         )
       }
       {

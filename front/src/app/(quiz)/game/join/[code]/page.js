@@ -8,13 +8,15 @@ import Lobby from "@/app/_components/game/lobby";
 import Game from "@/app/_components/game/game";
 
 export default function Page() {
-  const { code } = useParams();
   const socket = useSocket();
   const [error, setError] = useState(null);
+  const [code, setCode] = useState(null);
   const [sceene, setSceene] = useState("lobby");
   const [players, setPlayers] = useState([]);
   const [question, setQuestion] = useState(null);
   const [answers, setAnswers] = useState([]);
+
+  setCode(useParams().code);
 
   useEffect(() => {
     if (!socket) return;
@@ -24,14 +26,9 @@ export default function Page() {
       setError(error);
     });
 
-    socket.on("joinedRoom", (room) => {
-      socket.emit("playerJoin", {
-        room_id: room.room_id,
-        player_id: socket.id,
-        players: room.players,
-      });
-
-      setPlayers([...room.players]);
+    socket.on("joinedRoom", (data) => {
+      console.log(data);
+      setPlayers([...data]);
     });
 
     socket.on("playerJoined", (data) => {
@@ -43,15 +40,36 @@ export default function Page() {
       console.log(data);
     });
 
-    socket.on("gameStarted", () => {
+    socket.on("gameStarted", (data) => {
       setSceene("game");
+      socket.emit("reqQuestion", data);
     });
 
+    socket.on("getQuestion", (data) => {
+      console.log(data);
+      setQuestion(data.question);
+      setAnswers(data.answers);
+    });
+
+    socket.on("allAnswered", (data) => {
+      setSceene("change");
+      console.log(data);
+      setTimeout(() => {
+        setSceene("game");
+        socket.emit("nextQuestion", data);
+      }, 1000);
+    });
+
+    socket.on("gameEnded", () => {
+      console.log("gameEnded");
+      setSceene("lobby");
+    });
 
     return () => {
       socket.off("error");
     };
-  }, [code, socket]);
+  }, [socket]);
+
 
   return (
     <GameLayout code={code} players={players} error={error}>
@@ -60,7 +78,12 @@ export default function Page() {
       )}
       {
         sceene === "game" && (
-          <Game question={question} answers={answers} />
+          <Game isOwner={false} question={question} answers={answers} socket={socket} code={code} />
+        )
+      }
+      {
+        sceene === "change" && (
+          <div>Change</div>
         )
       }
     </GameLayout>

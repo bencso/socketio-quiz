@@ -30,6 +30,7 @@ const joinRoom = (req, res) => {
   const room = rooms.getRoom(code);
   if (room) {
     room.addPlayer(socketId);
+    logger.log(room);
     res.status(200).send({
       roomId: room.getId(),
       code: room.getCode(),
