@@ -27,7 +27,6 @@ export default function Page() {
 
     socket.on("createdRoom", (data) => {
       setCode(data.code);
-      console.log(data.players);
       setPlayers([...data.players]);
     });
 
@@ -37,7 +36,6 @@ export default function Page() {
 
     socket.on("playerLeft", (data) => {
       setPlayers([...data]);
-      console.log(data);
     });
 
     socket.on("gameStarted", (data) => {

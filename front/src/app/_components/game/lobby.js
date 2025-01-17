@@ -7,12 +7,14 @@ export default function Lobby({ code, players, isOwner, startGame }) {
     useEffect(() => {
         const playersDiv = document.getElementById("players");
         playersDiv.innerHTML = "";
-        players.forEach((player) => {
-            const li = document.createElement("li");
-            li.textContent = player.id;
-            playersDiv.appendChild(li);
+        if(players){
+            players.forEach((player) => {
+                const li = document.createElement("li");
+                li.textContent = player.id;
+                playersDiv.appendChild(li);
+            }
+            );
         }
-        );
     }, [players]);
 
 

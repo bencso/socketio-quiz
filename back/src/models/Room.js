@@ -26,11 +26,13 @@ class Room {
     this.players = this.players.filter((p) => p !== playerId);
   }
 
+  //TODO: Refaktorálás??? Szebb megoldás???
   playerAnswered(playerId) {
     let player = this.players.find((p) => p.id === playerId);
     player.answered = true;
     let allAnswered = this.players.every((p)=> p.answered);
     if(allAnswered) this.players.forEach((p)=> p.answered = false);
+    this.players[0].answered = true;
     return allAnswered;
   }
 
@@ -63,10 +65,16 @@ class Room {
     return this.id;
   }
 
+    //TODO: Refaktorálás??? Szebb megoldás???
   nextQuestion() {
-    this.currentQuestionIndex++;
-    if(this.currentQuestionIndex >= this.question.length) this.currentQuestionIndex = 0;
-    return this.currentQuestionIndex;
+    if(this.currentQuestionIndex < this.question.length - 1) {
+      this.currentQuestionIndex++;
+      return true;
+    } else {
+      this.currentQuestionIndex = -1;
+      console.log("End?!")
+      return false;
+    }
   }
 }
 

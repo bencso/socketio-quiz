@@ -127,7 +127,6 @@ const getQuestion = (req, res) => {
   let roomId = req.params.roomId;
   const room = rooms.getRoomById(roomId);
   const question_id = room.getQuestion();
-  console.log(question_id);
 
   let sql = `
     SELECT questions.question_id, questions.question, answer.answer, answer.answer_id
@@ -163,7 +162,7 @@ const nextQuestion = (req, res) => {
   const room = rooms.getRoomById(roomId);
   if (room) {
     let question = room.nextQuestion();
-    if (question == -1) {
+    if (question == false) {
       res.status(200).send({
         end: true,
         roomId: room.getId()

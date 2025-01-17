@@ -29,11 +29,12 @@ export default function Page() {
     });
 
     socket.on("playerJoined", (data) => {
-      setPlayers([...data.players]);
+      console.log(data);
+      setPlayers([...data]);
     });
 
     socket.on("playerLeft", (data) => {
-      setPlayers([...data.players]);
+      setPlayers([...data]);
     });
 
     socket.on("gameStarted", (data) => {
@@ -42,18 +43,13 @@ export default function Page() {
     });
 
     socket.on("getQuestion", (data) => {
-      console.log(data);
+      setSceene("game");
       setQuestion(data.question);
       setAnswers(data.answers);
     });
 
-    socket.on("allAnswered", (data) => {
+    socket.on("allAnswered", (_) => {
       setSceene("change");
-      console.log(data);
-      setTimeout(() => {
-        setSceene("game");
-        socket.emit("nextQuestion", data);
-      }, 1000);
     });
 
     socket.on("gameEnded", () => {

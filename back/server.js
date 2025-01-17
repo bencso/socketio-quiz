@@ -79,18 +79,11 @@ io.on("connection", (socket) => {
           roomId: data.roomId,
           players: data.players,
         });
+        logger.info(`${socket.id} csatlakozott a szobához: ${data.roomId}`);
+        socket.to(data.roomId).emit("playerJoined", data.players);
       });
   });
 
-  socket.on("playerJoin", (data) => {
-    logger.info(
-      "Játékos csatlakozott a szobához! Szoba: " +
-        data.roomId +
-        " Játékos: " +
-        data.player_id
-    );
-    io.to(data.roomId).emit("playerJoined", data.players);
-  });
 
   socket.on("startGame", (code) => {
     fetch(`${API_URL}/room/${code}`)
@@ -135,7 +128,7 @@ io.on("connection", (socket) => {
     })
       .then((res) => res.json())
       .then((data) => {
-        if (data.end) {
+        if (data.end == true) {
           io.to(data.roomId).emit("gameEnded");
           //TODO: Eredmények lekérése és továbbítása a kliensnek, és a szoba törlése
         } else {
